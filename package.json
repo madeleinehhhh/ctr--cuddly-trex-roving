@@ -1,12 +1,15 @@
 {
-  "name": "11ty-starter",
+  "name": "ctr--cuddly-trex-roving",
   "version": "1.0.0",
-  "description": "Minimal 11ty starter",
+  "description": "",
   "scripts": {
-    "dev": "eleventy --serve",
-    "build": "eleventy"
+    "start": "npx eleventy --serve",
+    "build": "npx eleventy"
   },
-  "dependencies": {
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
     "@11ty/eleventy": "^3.0.0"
   }
 }

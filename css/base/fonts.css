@@ -1,0 +1,38 @@
+/* =============================================================================
+   BASE FONTS
+   ============================================================================= */
+
+@font-face {
+  font-family: "Figtree";
+  font-weight: normal;
+  font-style: normal;
+  src: local("Figtree"), url("/public/fonts/figtree.woff2") format("woff2"),
+       url("/public/fonts/figtree.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-weight: bold;
+  font-style: normal;
+  src: local("Cormorant Garamond"), url("/public/fonts/cormorant-garamond-bold.woff2") format("woff2"),
+       url("/public/fonts/cormorant-garamond-bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Tenor Sans";
+  font-weight: normal;
+  font-style: normal;
+  src: local("Tenor Sans"), url("/public/fonts/tenor-sans.woff2") format("woff2"),
+       url("/public/fonts/tenor-sans.woff") format("woff");
+}
+
+body {
+  font-family: "Figtree", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+               Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: bold;
+}

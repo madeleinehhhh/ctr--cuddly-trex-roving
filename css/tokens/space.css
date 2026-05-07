@@ -1,0 +1,21 @@
+/* =============================================================================
+   SPACING TOKENS
+   Four-step em-based scale: --space-xs, --space-sm, --space-md, --space-lg
+   Layout tokens separately: --layout-max-width, --layout-gutter-*, etc.
+   --space-flow for the .flow utility
+   ============================================================================= */
+
+:root {
+  /* Spacing scale */
+  --space-xs: 0.5em;
+  --space-sm: 1em;
+  --space-md: 2em;
+  --space-lg: 3em;
+
+  /* Layout tokens */
+  --layout-max-width: 80rem; /* Maximum width of the layout container */
+  --layout-gutter: var(--space-md); /* Default gutter between layout elements */
+
+  /* Flow utility */
+  --space-flow: var(--space-md);
+}

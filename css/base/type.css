@@ -1,0 +1,33 @@
+/* =============================================================================
+   BASE TYPE
+   Typography utilities and styles
+   ============================================================================= */
+
+body {
+  font-size: var(--type-base);
+  color: var(--color-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: var(--space-lg);
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: var(--space-md);
+}
+
+a {
+  color: var(--color-interactive);
+  transition: color var(--transition-medium) var(--easing-standard);
+}
+a:hover,
+a:focus,
+a:active {
+  color: var(--color-primitive-goldenhour);
+}
+
+.flow {
+  display: block;
+  margin-bottom: var(--space-flow);
+}

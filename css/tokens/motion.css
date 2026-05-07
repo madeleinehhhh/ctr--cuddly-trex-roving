@@ -1,0 +1,14 @@
+/* =============================================================================
+   MOTION TOKENS
+   Tokens for transition durations, easing functions, etc.
+   ============================================================================= */
+
+:root {
+  /* Transition durations */
+  --transition-short: 250ms;
+  --transition-medium: 400ms;
+  --transition-long: 750ms;
+
+  /* Easing functions */
+  --easing-standard: cubic-bezier(0.4, 0.0, 0.2, 1);
+}

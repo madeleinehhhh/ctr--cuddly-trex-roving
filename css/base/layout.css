@@ -1,0 +1,40 @@
+/* =============================================================================
+   BASE LAYOUT
+   Layout utilities and structures
+   ============================================================================= */
+
+.container {
+  max-width: var(--layout-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
+}
+
+header {
+  background-color: var(--color-background-light);
+  padding: var(--space-lg) var(--space-md);
+  text-align: center;
+}
+
+nav {
+  margin-bottom: var(--space-lg);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-left: var(--space-sm);
+  margin-right: var(--space-sm);
+}
+
+footer {
+  background-color: var(--color-background-light);
+  padding: var(--space-lg) var(--space-md);
+  text-align: center;
+  border-top: 1px solid var(--color-border);
+}
