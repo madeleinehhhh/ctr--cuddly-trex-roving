@@ -1,0 +1,12 @@
+{
+  "name": "11ty-starter",
+  "version": "1.0.0",
+  "description": "Minimal 11ty starter",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
