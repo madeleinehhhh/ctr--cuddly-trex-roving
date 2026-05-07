@@ -7,12 +7,16 @@ These are raw values named by hue.
 
 ```css
 /* Primitives */
---color-primitive-coral: #ff6b6b;
---color-primitive-cyan: #87ceeb;
---color-primitive-goldenhour: #f0932b;
---color-primitive-forestgreen: #556b2f;
---color-primitive-night: #1e2124;
---color-primitive-snow: #ffffff;
+  --color-primitive-night: #0f3966;
+  --color-primitive-midnight: #0a1a2b;
+  --color-primitive-darkestnight: #100900;
+  --color-primitive-waterblue: #3375fb;
+  --color-primitive-warmwhite: #faf8f4;
+  --color-primitive-amberglow: #e8a430;
+  --color-primitive-eveningsun: #77420a;
+  --color-primitive-goldenhour: #e8c87a;
+  --color-primitive-dawn: #e9d5d3;
+  --color-primitive-dusk: #d4dcec;
 ```
 
 ## Semantic
@@ -20,11 +24,12 @@ These are named by role (surface, text, interactive, border, decor).
 
 ```css
 /* Semantic */
---color-background-light: var(--color-primitive-snow);
---color-background-dark: var(--color-primitive-night);
---color-text: var(--color-primitive-night);
---color-interactive: var(--color-primitive-coral);
---color-border: var(--color-primitive-forestgreen);
+  --color-surface: var(--color-primitive-warmwhite);
+  --color-text: var(--color-primitive-midnight);
+  --color-text-light: var(--color-primitive-dawn);
+  --color-interactive: var(--color-primitive-waterblue);
+  --color-border: var(--color-primitive-night);
+  --color-decor: var(--color-primitive-goldenhour);
 ```
 
 ## Component Slots

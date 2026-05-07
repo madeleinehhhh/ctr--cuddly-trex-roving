@@ -4,11 +4,30 @@
    ============================================================================= */
 
 :root {
-  /* Transition durations */
-  --transition-short: 250ms;
-  --transition-medium: 400ms;
-  --transition-long: 750ms;
+  /* --- Duration ---
+     --duration-ui: interactions (links, hovers, focus) — fast enough to feel
+                    responsive, slow enough to feel intentional.
+     --duration-entrance: elements appearing / larger transitions.            */
+  --duration-ui:        1200ms;
+  --duration-entrance:  600ms;
+  --duration-fast:      200ms;
 
-  /* Easing functions */
-  --easing-standard: cubic-bezier(0.4, 0.0, 0.2, 1);
+  /* --- Easing ---
+     The site's signature curve: fast in, slow settle.
+     Used on link transitions and anything that should feel snappy but smooth. */
+  --ease-default:       cubic-bezier(0.07, 1.00, 0.00, 1.00);
+
 }
+
+/* --- Reduced motion ---
+   Override durations to instant for users who prefer less motion.
+   The blob animations in base/animation.css should also check this.         */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-ui:      0ms;
+    --duration-entrance:0ms;
+    --duration-fast:    0ms;
+    --ease-default:     linear;
+  }
+}
+

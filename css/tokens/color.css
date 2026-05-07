@@ -34,4 +34,8 @@
 
 :root {
   /* Add specific component slots here */
+  --color-button-primary-background: var(--color-primitive-goldenhour);
+  --color-button-primary-text: var(--color-primitive-midnight);
+  --color-link: var(--color-interactive);
+  --color-link-hover: var(--color-primitive-amberglow);
 }

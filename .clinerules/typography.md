@@ -7,18 +7,24 @@ The type scale is based on a fluid base using `clamp()` and power-of-two steps f
 
 ```css
 /* Type Scale */
---type-base: clamp(1rem, 0.923vw + 0.75rem, 1.125rem);
---type-step-ratio: 1.125;
---type-xs: calc(--type-base / (var(--type-step-ratio) * var(--type-step-ratio)));
---type-sm: calc(--type-base / var(--type-step-ratio));
---type-md: --type-base;
---type-lg: calc(--type-base * var(--type-step-ratio));
---type-xl: calc(--type-base * (var(--type-step-ratio) * var(--type-step-ratio)));
---type-2xl: calc(--type-base * (var(--type-step-ratio) * var(--type-step-ratio) * var(--type-step-ratio)));
---type-3xl: calc(--type-base * (var(--type-step-ratio) * var(--type-step-ratio) * var(--type-step-ratio) * var(--type-step-ratio)));
---type-4xl: calc(--type-base * (var(--type-step-ratio) * var(--type-step-ratio) * var(--type-step-ratio) * var(--type-step-ratio) * var(--type-step-ratio)));
---type-5xl: calc(--type-base * (var(--type-step-ratio) * var(--type-step-ratio) * var(--type-step-ratio) * var(--type-step-ratio) * var(--type-step-ratio) * var(--type-step-ratio)));
---type-6xl: calc(--type-base * (var(--type-step-ratio) * var(--type-step-ratio) * var(--type-step-ratio) * var(--type-step-ratio) * var(--type-step-ratio) * var(--type-step-ratio) * var(--type-step-ratio)));
+  /* Fluid base — clamps between ~1em and ~1.25em depending on viewport */
+  --type-base: clamp(1em, 22px + 1vi, 1.25em);
+
+  /* Scale ratio — increase for a more dramatic hierarchy, decrease for subtler */
+  --type-ratio: 1.1;
+
+  /* Negative steps (smaller than body) */
+  --type-xs: calc(var(--type-base) * pow(var(--type-ratio), -1));
+  --type-sm: calc(var(--type-base) * pow(var(--type-ratio), -.25));
+
+  /* Positive steps (larger than body) */
+  --type-lg: calc(var(--type-base) * pow(var(--type-ratio), 1));
+  --type-xl: calc(var(--type-base) * pow(var(--type-ratio), 2));
+  --type-2xl: calc(var(--type-base) * pow(var(--type-ratio), 3));
+  --type-3xl: calc(var(--type-base) * pow(var(--type-ratio), 4));
+  --type-4xl: calc(var(--type-base) * pow(var(--type-ratio), 5));
+  --type-5xl: calc(var(--type-base) * pow(var(--type-ratio), 6));
+  --type-6xl: calc(var(--type-base) * pow(var(--type-ratio), 7));
 ```
 
 ## Leading Tokens
@@ -26,7 +32,7 @@ Leading tokens are defined for different line heights to ensure consistency and 
 
 ```css
 /* Leading Tokens */
---leading-tight: 1.2;
+--leading-tight: 1;
 --leading-normal: 1.4;
 --leading-loose: 1.6;
 ```
@@ -44,13 +50,16 @@ Weight tokens are defined for different font weights to maintain a consistent ty
 ## Font Pairing
 The project uses the following free/system fonts:
 
-- **Primary Font**: Inter (system-ui fallback)
-- **Secondary Font**: Arial, sans-serif (fallback)
+- **Primary Font**: Figtree, sans-serif
+- **Secondary Font**: Cormorant Garamond, serif
+- **Tertiary font**: Tenor Sans
 
 ```css
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+/* Fonts are hosting locally, in /public/fonts/ */
 
-body {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+:root {
+  --font-body: 'Figtree', sans-serif;
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-special: 'Tenor Sans', var(--font-heading);
 }

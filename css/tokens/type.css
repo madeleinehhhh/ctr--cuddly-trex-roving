@@ -1,5 +1,56 @@
 /* =============================================================================
-   TYPE SCALE
+   TYPOGRAPHY TOKENS
+   tokens/type.css
+
+   Three sections:
+     1. Fonts        — families, declared here, @font-face in base/fonts.css
+     2. Scale        — fluid type scale built on a ratio, via pow()
+     3. Leading      — line-height values for each use context
+
+   The scale uses a single --type-base as the fluid midpoint and
+   --type-scale as the ratio. Adjust those two values to shift the
+   entire system proportionally.
+   ============================================================================= */
+
+
+/* =============================================================================
+   1. FONT FAMILIES
+   ============================================================================= */
+
+   @font-face {
+  font-family: "Figtree";
+  font-weight: normal;
+  font-style: normal;
+  src: local("Figtree"), url("/public/fonts/figtree.woff2") format("woff2"),
+       url("/public/fonts/figtree.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-weight: bold;
+  font-style: normal;
+  src: local("Cormorant Garamond"), url("/public/fonts/cormorant-garamond-bold.woff2") format("woff2"),
+       url("/public/fonts/cormorant-garamond-bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Tenor Sans";
+  font-weight: normal;
+  font-style: normal;
+  src: local("Tenor Sans"), url("/public/fonts/tenor-sans.woff2") format("woff2"),
+       url("/public/fonts/tenor-sans.woff") format("woff");
+}
+
+:root {
+
+  --font-body: 'Figtree', sans-serif;
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-special: 'Tenor Sans', var(--font-heading);
+
+}
+
+/* =============================================================================
+   2. TYPE SCALE
    Fluid base via clamp(), all other steps derived via pow().
    Reference: https://codepen.io/miriamsuzanne/pen/QwEXomP
 
@@ -22,6 +73,7 @@
    ============================================================================= */
 
 :root {
+  
   /* Fluid base — clamps between ~1em and ~1.25em depending on viewport */
   --type-base: clamp(1em, 22px + 1vi, 1.25em);
 
@@ -40,4 +92,39 @@
   --type-4xl: calc(var(--type-base) * pow(var(--type-ratio), 5));
   --type-5xl: calc(var(--type-base) * pow(var(--type-ratio), 6));
   --type-6xl: calc(var(--type-base) * pow(var(--type-ratio), 7));
+
+}
+
+
+/* =============================================================================
+   3. LEADING (line-height)
+
+   Three values covering the main use cases:
+     --leading-tight    headings, display text (no descenders to worry about)
+     --leading-normal   body copy, lists
+     --leading-loose    long-form prose (your current p line-height)
+   ============================================================================= */
+
+:root {
+
+  --leading-tight: 1;
+  --leading-normal: 1.4;
+  --leading-loose: 1.6;
+
+}
+
+
+/* =============================================================================
+   4. FONT WEIGHT
+
+   Figtree and Cormorant Garamond are variable (200–800).
+   Tenor Sans has one weight
+   ============================================================================= */
+
+:root {
+
+  --weight-normal:   400;
+  --weight-bold:     700;   /* for inline bold in body copy (p a, strong) */
+  --weight-heading:  800;
+
 }

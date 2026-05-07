@@ -7,13 +7,10 @@ The spacing scale follows a 4-step em-based scale with optional layout tokens fo
 
 ```css
 /* Spacing Scale */
---space-xs: 0.25rem;
---space-sm: 0.5rem;
---space-md: 1rem;
---space-lg: 2rem;
-
-/* Flow utility */
---space-flow: 3rem;
+  --space-xs: 0.5em;
+  --space-sm: 1em;
+  --space-md: 2em;
+  --space-lg: 3em;
 ```
 
 ## Layout Tokens
@@ -21,9 +18,11 @@ Layout tokens define max-widths and gutters for consistent layout structures.
 
 ```css
 /* Layout Tokens */
---layout-max-width: 75ch; /* Max width for content */
---layout-gutter-x: var(--space-md); /* Horizontal gutter */
---layout-gutter-y: var(--space-lg); /* Vertical gutter */
+  --layout-max-width: 80rem; /* Maximum width of the layout container */
+  --layout-gutter: var(--space-md); /* Default gutter between layout elements */
+
+/* Flow utility */
+  --space-flow: var(--space-md);
 ```
 
 ## Usage
