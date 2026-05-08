@@ -1,0 +1,11 @@
+<nav aria-label="Main Navigation">
+  <ul class="nav">
+    <li {% if page.url == "/" %}class="current-page"{% endif %}><a href="/">Home</a></li>
+    <li {% if page.url == "/about/" %}class="current-page"{% endif %}><a href="/about/">About</a></li>
+    <li {% if page.url == "/connect/" %}class="current-page"{% endif %}><a href="/connect/">Connect</a></li>
+    <li><a href="/connect/email/">Email Us</a></li>
+    <li><a href="/connect/donate/">Donate</a></li>
+    <li><a href="/connect/calendar/">Calendar</a></li>
+    <li><a href="/connect/visit/">Visit Us</a></li>
+  </ul>
+</nav>

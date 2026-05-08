@@ -9,18 +9,20 @@ body {
   font-size: var(--type-sm);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
+  font-family: var(--font-body);
+  font-weight: var(--weight-heading);
+  line-height: var(--leading-tight);
+  margin: 0;
+}
+
+h3, h4, h5, h6 {
   font-family: var(--font-heading);
   font-weight: var(--weight-heading);
   line-height: var(--leading-tight);
   margin: 0;
 }
 
-.special-font {
-  font-family: var(--font-special);
-  font-weight: var(--weight-normal);
-  line-height: var(--leading-tight);
-}
 
 h1 { font-size: var(--type-6xl); }
 h2 { font-size: var(--type-5xl); }

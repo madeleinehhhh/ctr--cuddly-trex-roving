@@ -3,6 +3,9 @@
    Layout utilities and structures
    ============================================================================= */
 
+body {
+  background-color: var(--color-surface);
+}
 .container {
   max-width: var(--layout-max-width);
   margin-left: auto;
@@ -12,7 +15,6 @@
 }
 
 header {
-  background-color: var(--color-surface);
   padding: var(--space-lg) var(--space-md);
   text-align: center;
 }
@@ -32,8 +34,12 @@ nav ul li {
   margin-right: var(--space-sm);
 }
 
+.flow {
+  display: grid;
+  gap: 1em;
+}
+
 footer {
-  background-color: var(--color-surface);
   padding: var(--space-lg) var(--space-md);
   text-align: center;
   border-top: 1px solid var(--color-border);

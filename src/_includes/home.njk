@@ -1,0 +1,13 @@
+---
+layout: base
+---
+<header>
+  {% include "nav.njk" %}
+</header>
+<main id="main" class="flow">
+    <h1 class="site-title">{{ title }}</h1>
+    {{ content | safe }}
+</main>
+<footer>
+  <p>© {{ site.author }}</p>
+</footer>

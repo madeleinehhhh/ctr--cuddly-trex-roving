@@ -8,6 +8,7 @@
   --color-primitive-darkestnight: #100900;
   --color-primitive-waterblue: #3375fb;
   --color-primitive-warmwhite: #faf8f4;
+  --color-primitive-warmwhite:#F8F5EE;
   --color-primitive-amberglow: #e8a430;
   --color-primitive-eveningsun: #77420a;
   --color-primitive-goldenhour: #e8c87a;
@@ -23,6 +24,8 @@
   --color-surface: var(--color-primitive-warmwhite);
   --color-text: var(--color-primitive-midnight);
   --color-text-light: var(--color-primitive-dawn);
+  --color-text-heading: var(--color-primitive-night);
+  --color-text-special: var(--color-primitive-eveningsun);
   --color-interactive: var(--color-primitive-waterblue);
   --color-border: var(--color-primitive-night);
   --color-decor: var(--color-primitive-goldenhour);
@@ -32,10 +35,29 @@
    COLOR COMPONENT SLOTS
    ========================================================================== */
 
-:root {
+:root { 
   /* Add specific component slots here */
   --color-button-primary-background: var(--color-primitive-goldenhour);
   --color-button-primary-text: var(--color-primitive-midnight);
+  --color-button-primary-hover-background: var(--color-primitive-amberglow);
+  --color-button-primary-hover-text: var(--color-primitive-midnight);
   --color-link: var(--color-interactive);
-  --color-link-hover: var(--color-primitive-amberglow);
+  --color-link-hover: oklch(from var(--color-link) calc(l * .8) c h);
+}
+
+/* Shadows */
+:root {
+  --shadow-color: var(--color-surface);
+  --shadow-elevation-low:
+    0px 0.1px 0.5px   oklch(from var(--shadow-color) 0.6 c h/ 0.20),
+    0px 0.5px 1.8px -0.5px   oklch(from var(--shadow-color) 0.6 c h/ 0.30);
+  --shadow-elevation-medium:
+    0px 0.1px 0.4px   oklch(from var(--shadow-color) 0.6 c h/ 0.18),
+    0px 0.8px 3.2px -0.2px   oklch(from var(--shadow-color) 0.6 c h/ 0.24),
+    0px 2.4px 8.0px -0.5px   oklch(from var(--shadow-color) 0.6 c h/ 0.30);
+  --shadow-elevation-high:
+    0px 0.1px 0.4px   oklch(from var(--shadow-color) 0.6 c h/ 0.18),
+    0px 1.0px 3.8px -0.1px   oklch(from var(--shadow-color) 0.6 c h/ 0.23),
+    0px 2.8px 9.2px -0.3px   oklch(from var(--shadow-color) 0.6 c h/ 0.29),
+    0px 5.0px 15.0px -0.5px   oklch(from var(--shadow-color) 0.6 c h/ 0.34);
 }
