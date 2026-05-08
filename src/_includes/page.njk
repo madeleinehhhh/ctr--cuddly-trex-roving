@@ -1,19 +1,13 @@
 ---
 layout: base
 ---
-<header>
+<header class="site-title-inline">
   <p class="site-title"><a href="/">{{ site.name }}</a></p>
   {% include "nav.njk" %}
 </header>
 <main id="main" class="flow">
-  <article class="page">
-    <header class="page-header">
-      <h1>{{ title }}</h1>
-    </header>
-    <div class="page-body">
-      {{ content | safe }}
-    </div>
-  </article>
+  <h1>{{ title }}</h1>
+  {{ content | safe }}
 </main>
 <footer>
   <p>© {{ site.author }}</p>

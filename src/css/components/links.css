@@ -1,0 +1,53 @@
+.btn {
+  display:inline-block;
+  background: var(--color-button-primary-background);
+  box-shadow: var( --shadow-elevation-medium);
+  color: var(--color-button-primary-text);
+  padding: 0.5em 1em;
+  scale: 1;
+  transition:
+    color var(--duration-ui) var(--ease-default),
+    scale var(--duration-ui) var(--ease-default),
+    box-shadow var(--duration-ui) var(--ease-default),
+    background var(--duration-ui) var(--ease-default);
+}
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background: var(--color-button-primary-hover-background);
+  color: var(--color-button-primary-hover-text);
+}
+.btn:hover, .btn:focus {
+  scale: 1.025;
+  box-shadow: var(--shadow-elevation-high);
+}
+
+.btn:active {
+  scale: 0.995;
+  box-shadow: var(--shadow-elevation-low);
+}
+
+.btn.secondary {
+  box-shadow: none;
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+  transition:
+    color var(--duration-ui) var(--ease-default),
+    scale var(--duration-ui) var(--ease-default);
+}
+.btn.secondary:hover,
+.btn.secondary:focus,
+.btn.secondary:active {
+  background: transparent;
+  color: var(--color-button-primary-hover-text);
+}
+.btn.secondary:hover, .btn.secondary:focus {
+  scale: 1.025;
+  box-shadow: none;
+}
+
+.btn.secondary:active {
+  scale: 0.995;
+  box-shadow: none;
+}

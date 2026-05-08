@@ -45,26 +45,3 @@ Here's an example of a button component:
 
 ```css
 /* Button Styles */
-.btn {
-  background-color: var(--color-button-primary-background);
-  color: var(--color-button-primary-text);
-  padding: var(--space-md) var(--space-lg);
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-
-  &[data-style="secondary"] {
-    background-color: var(--color-background-light);
-    color: var(--color-text);
-    border: 1px solid var(--color-border);
-
-    &:hover {
-      background-color: var(--color-background-dark);
-    }
-  }
-
-  &:focus {
-    outline: 2px solid var(--color-interactive);
-  }
-}

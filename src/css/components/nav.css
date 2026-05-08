@@ -1,0 +1,16 @@
+nav {
+}
+
+nav ul {
+  list-style: none;
+
+  display: flex;
+  justify-content: flex-end;
+
+  gap: var(--space-sm);
+}
+
+nav ul li {
+  margin:0;padding:0;
+}
+

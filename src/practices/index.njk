@@ -1,0 +1,28 @@
+---
+title: Practices
+layout: page
+---
+
+<h2>Who we are, What we do, a Way of Life</h2>
+
+<p>We have five main practices: prayer, reconciliation, formation, hospitality, and work.</p>
+
+<div class="cards">
+  {% for practice in collections.practices %}
+    <div class="card">
+      <h3>
+        <a href="{{ practice.url }}">
+          {{ practice.data.title }}
+        </a>
+      </h3>
+      <p>
+        {{ practice.data.description }}
+      </p>
+      <div>
+        <a class="btn secondary" href="{{ practice.url }}">
+          Read more about {{ practice.data.title }}
+        </a>
+      </div>
+    </div>
+  {% endfor %}
+</div>
