@@ -33,11 +33,12 @@ These are named by role (surface, text, interactive, border, decor).
 ```
 
 ## Component Slots
-These are defined per component and documented in `color.css`.
+These are defined per component and documented in `css/tokens/color.css`.
 
 ```css
 /* Component Slots */
 --color-button-primary-background: var(--color-primitive-goldenhour);
---color-button-primary-text: var(--color-primitive-snow);
+--color-button-primary-text: var(--color-primitive-eveningsun);
 --color-link: var(--color-interactive);
---color-link-hover: var(--color-primitive-cyan);
+--color-link-hover: var(--color-decor);
+```

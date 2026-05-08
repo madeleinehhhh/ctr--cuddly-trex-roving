@@ -13,7 +13,6 @@ This document outlines the file structure, load order, and other conventions for
   - `reset.css`: Reset styles for consistency across browsers.
   - `type.css`: Typography utilities and styles.
   - `layout.css`: Base layout utilities and structures.
-- **`css/site.css`**: Site-specific styles.
 
 ## Load Order
 The CSS files are loaded in the following order to ensure proper layering of styles:

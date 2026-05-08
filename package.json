@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "start": "npx eleventy --serve",
-    "build": "npx eleventy"
+    "build": "npx eleventy",
+    "dev": "npx eleventy --serve"
   },
   "type": "module",
   "author": "",

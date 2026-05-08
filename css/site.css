@@ -2,3 +2,26 @@
    SITE SPECIFIC STYLES
    Styles specific to this site only.
    ============================================================================= */
+
+body {
+  font-family: var(--font-body);
+  line-height: var(--leading-normal);
+  color: var(--color-text);
+  background-color: var(--color-surface);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  margin-bottom: var(--space-md);
+}
+
+.container {
+  max-width: var(--layout-max-width);
+  margin: 0 auto;
+  padding-left: var(--layout-gutter);
+  padding-right: var(--layout-gutter);
+}
+
+.flow > * + * {
+  margin-top: var(--space-flow);
+}

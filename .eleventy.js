@@ -1,7 +1,7 @@
 export default function (eleventyConfig) {
-
   // Passthrough — files copied as-is to _site/
-  eleventyConfig.addPassthroughCopy("src/css");
+  eleventyConfig.addPassthroughCopy({ "src/css/tokens/": "/css/tokens/" });
+eleventyConfig.addPassthroughCopy({ "src/css/base/": "/css/base/" });
   eleventyConfig.addPassthroughCopy("src/fonts");
   eleventyConfig.addPassthroughCopy("src/images");
 
@@ -22,5 +22,4 @@ export default function (eleventyConfig) {
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",
   };
-
 }
