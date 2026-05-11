@@ -10,20 +10,20 @@ description: 'We have five main practices: prayer, reconciliation, formation, ho
 
 <div class="cards">
   {% for practice in collections.practices %}
-    <div class="card">
-      <h3>
-        <a href="{{ practice.url }}">
+    <a href="{{ practice.url }}">
+      <div class="card">
+        <h3>
           {{ practice.data.title }}
-        </a>
-      </h3>
-      <p>
-        {{ practice.data.description }}
-      </p>
-      <div>
-        <a class="btn" href="{{ practice.url }}">
-          Read more about {{ practice.data.title }}
-        </a>
+        </h3>
+        <p>
+          {{ practice.data.description }}
+        </p>
+        <div>
+          <a class="btn" href="{{ practice.url }}">
+            Read more about {{ practice.data.title }}
+          </a>
+        </div>
       </div>
-    </div>
+    </a>
   {% endfor %}
 </div>
