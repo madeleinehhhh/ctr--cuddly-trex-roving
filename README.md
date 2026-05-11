@@ -1,7 +1,6 @@
 # 11ty Starter
 
-Minimal Eleventy starter for new sites. The plumbing is done —
-Cline handles everything from here.
+A new site.
 
 ## Setup
 
@@ -31,12 +30,7 @@ _site/            build output — do not edit
 .eleventy.js      11ty config — do not modify unless asked
 ```
 
-## Starting a new project
-
-1. Copy this starter into a new repo
-2. Fill in `src/_data/site.json`
-3. Open Cline, point it at `.clinerules/new-site.md`
-4. Say: "Start a new site. Read new-site.md and then ask me about the project."
+ad new-site.md and then ask me about the project."
 
 ## Adding to .eleventy.js
 
@@ -44,5 +38,3 @@ The only reasons to modify `.eleventy.js`:
 - Adding a new passthrough directory
 - Registering a new content collection
 - Adding an 11ty plugin
-
-Ask Cline to do this rather than editing manually.
