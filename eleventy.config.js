@@ -12,6 +12,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addCollection("practices", (collectionApi) =>
     collectionApi.getFilteredByGlob("src/practices/*.njk").filter(p => !p.filePathStem.endsWith("/index"))
   );
+  eleventyConfig.addCollection("homes", (collectionApi) =>
+    collectionApi.getFilteredByGlob("src/*/index.njk")
+  );
 
   return {
     dir: {

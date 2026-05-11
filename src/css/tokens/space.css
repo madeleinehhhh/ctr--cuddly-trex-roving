@@ -7,6 +7,7 @@
 
 :root {
   /* Spacing scale */
+  --space-xxs: 0.25em;
   --space-xs: 0.5em;
   --space-sm: 1em;
   --space-md: 2em;

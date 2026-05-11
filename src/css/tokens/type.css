@@ -105,7 +105,11 @@
   --type-6xl: calc(var(--type-base) * pow(var(--type-ratio), 7));
 
 }
-
+@media screen and (width < 800px) {
+  :root {
+    --type-ratio: 1.1;
+  }
+}
 
 /* =============================================================================
    3. LEADING (line-height)

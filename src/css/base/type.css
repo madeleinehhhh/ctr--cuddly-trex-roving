@@ -9,6 +9,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  --color-link: currentcolor;
   color: var(--color-text-heading);
 }
 
@@ -17,15 +18,49 @@ p {
 }
 
 a {
+  position: relative;
   color: var(--color-link);
   transition: color var(--duration-ui) var(--ease-default);
+  /* text-decoration: underline dotted oklch(from currentcolor calc(l * 1.52) c h); */
+}
+a::before {
+  content: '';
+  position:absolute;
+  z-index: -1;
+
+  transform-origin: center;
+
+  border-radius: 100%;
+
+  width: 6px;
+  height: 6px;
+
+  left: 50%;
+  bottom: -2px;
+
+  background: currentColor;
+
+  transition:
+    width var(--duration-ui) var(--ease-default),
+    height var(--duration-ui) var(--ease-default),
+    left var(--duration-ui) var(--ease-default),
+    border-radius var(--duration-fast) var(--ease-default);
 }
 a:hover,
 a:focus,
 a:active {
   color: var(--color-link-hover);
 }
+a:hover::before,
+a:active::before,
+a:focus::before {
+  border-radius: 0;
 
+  width: 100%;
+  height: 3px;
+
+  left: 0;
+}
 .flow {
   display: block;
   margin-bottom: var(--space-flow);

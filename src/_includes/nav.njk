@@ -1,8 +1,12 @@
 <nav aria-label="Main Navigation">
   <ul class="nav">
     <li {% if page.url == "/" %}class="current-page"{% endif %}><a href="/">Home</a></li>
-    <li {% if page.url == "/about/" %}class="current-page"{% endif %}><a href="/about/">About</a></li>
-    <li {% if page.url == "/connect/" %}class="current-page"{% endif %}><a href="/connect/">Connect</a></li>
-    <li {% if page.url == "/practices/" %}class="current-page"{% endif %}><a href="/practices/">Practices</a></li>
+    {% for home in collections.homes %}
+      <li {% if page.url == home.url %}class="current-page"{% endif %}>
+        <a href="{{ home.url }}">
+          {{ home.data.title }}
+        </a>
+      </li>
+  {% endfor %}
   </ul>
 </nav>

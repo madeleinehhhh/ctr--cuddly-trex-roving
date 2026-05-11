@@ -2,22 +2,34 @@
 title: Christ the Reconciler
 layout: home
 ---
+<div class="block">
+  <h2>Learn more</h2>
+  <div class="cards">
+    {% for home in collections.homes %}
+      <div class="card">
+        <h3>
+          <a href="{{ home.url }}">
+            {{ home.data.title }}
+          </a>
+        </h3>
+        <p>Description: 
+          {{ home.data.description }}
+        </p>
+        <div>
+          <a class="btn" href="{{ home.url }}">
+            Read more about {{ home.data.title }}
+          </a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
 
-<h2>Who we are and our Goal</h2>
-<p>We are a lay community of followers of Jesus—-Protestant, Roman Catholic, and Messianic Jew--living out John 17 through prayer, formation, reconciliation, hospitality, and work</p>
-
-<figure>
+<div class="block">
+  <h2>John 17</h2>
+  <p>Everything comes down to John 17.</p>
   <blockquote>
-    <p>I pray also for whoever will believe in me through their message, so that they all will be one, Father, just as you are in me and I am in you.</p><p>May they also be one in us so that this world will believe that you sent me into this world.</p>
-  </blockquote>
-  <figcaption class="source">— Jesus in John 17</figcaption>
-</figure>
+    <p>I pray also for whoever will believe in me through their message, so that they all will be one, Father, just as you are in me and I am in you.</p>
 
-<h2>Who can participate and how?</h2>
-
-<p>Anyone? People who believe in and/or follow Jesus? Literally anyone can participate without becoming a member?</p>
-<p>Not a cult--you always have to stay involved in your real local community?</p>
-
-<h3>The Rule and living out John 17</h3>
-<p>Here's an opportunity to link to the statement.</p>
-<p>Here's also an opportunity to talk again about <a href="/practices/">Practices</a>, and maybe list them all again.</p>
+  <p>May they also be one in us so that this world will believe that you sent me into this world.</p>
+</blockquote>

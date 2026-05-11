@@ -21,12 +21,6 @@ header {
   padding: var(--space-sm);
 }
 
-header.site-title-inline {}
-
-/* .flow {
-  display: grid;
-  gap: 1em;
-} */
 
 footer {
   padding: var(--space-lg) var(--space-md);
