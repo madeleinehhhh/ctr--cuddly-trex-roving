@@ -1,0 +1,24 @@
+{
+  "printWidth": 120,
+  "tabWidth": 2,
+  "useTabs": false,
+  "singleQuote": true,
+  "endOfLine": "lf",
+  "trailingComma": "es5",
+  "overrides": [
+    {
+      "files": "*.md",
+      "options": {
+        "proseWrap": "preserve",
+        "printWidth": 99999
+      }
+    },
+    {
+      "files": "*.njk",
+      "options": {
+        "parser": "html",
+        "printWidth": 99999
+      }
+    }
+  ]
+}

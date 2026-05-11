@@ -5,8 +5,8 @@
 
 body {
   background-color: var(--color-surface);
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 #main {
   display: grid;
@@ -20,7 +20,6 @@ header {
   text-align: center;
   padding: var(--space-sm);
 }
-
 
 footer {
   padding: var(--space-lg) var(--space-md);

@@ -12,52 +12,59 @@
    entire system proportionally.
    ============================================================================= */
 
-
 /* =============================================================================
    1. FONT FAMILIES
    ============================================================================= */
 
 @font-face {
-  font-family: "Figtree";
+  font-family: 'Figtree';
   font-weight: 200 800;
   font-style: normal;
-  src: local("Figtree"), url("/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+  src:
+    local('Figtree'),
+    url('/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "Figtree";
+  font-family: 'Figtree';
   font-weight: 200 800;
   font-style: italic;
-  src: local("Figtree"), url("c/fonts/Figtree-Italic-VariableFont_wght.ttf") format("truetype");
+  src:
+    local('Figtree'),
+    url('c/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "Cormorant Garamond";
+  font-family: 'Cormorant Garamond';
   font-weight: 200 800;
   font-style: normal;
-  src: local("Cormorant Garamond"), url("/fonts/CormorantGaramond-VariableFont_wght.ttf") format("truetype");
+  src:
+    local('Cormorant Garamond'),
+    url('/fonts/CormorantGaramond-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "Cormorant Garamond";
+  font-family: 'Cormorant Garamond';
   font-weight: 200 800;
   font-style: italic;
-  src: local("Cormorant Garamond"), url("/fonts/CormorantGaramond-Italic-VariableFont_wght.ttf") format("truetype");
+  src:
+    local('Cormorant Garamond'),
+    url('/fonts/CormorantGaramond-Italic-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "Tenor Sans";
+  font-family: 'Tenor Sans';
   font-weight: normal;
   font-style: normal;
-  src: local("Tenor Sans"), url("/fonts/TenorSans-Regular.ttf") format("woff2");
+  src:
+    local('Tenor Sans'),
+    url('/fonts/TenorSans-Regular.ttf') format('woff2');
 }
 
 :root {
-
   --font-body: 'Figtree', sans-serif;
   --font-heading: 'Cormorant Garamond', serif;
   --font-special: 'Tenor Sans', var(--font-heading);
-
 }
 
 /* =============================================================================
@@ -84,7 +91,6 @@
    ============================================================================= */
 
 :root {
-  
   /* Fluid base — clamps between ~1em and ~1.25em depending on viewport */
   --type-base: clamp(1em, 22px + 1vi, 1.25em);
 
@@ -93,7 +99,7 @@
 
   /* Negative steps (smaller than body) */
   --type-xs: calc(var(--type-base) * pow(var(--type-ratio), -1));
-  --type-sm: calc(var(--type-base) * pow(var(--type-ratio), -.25));
+  --type-sm: calc(var(--type-base) * pow(var(--type-ratio), -0.25));
 
   /* Positive steps (larger than body) */
   --type-lg: calc(var(--type-base) * pow(var(--type-ratio), 1));
@@ -103,7 +109,6 @@
   --type-4xl: calc(var(--type-base) * pow(var(--type-ratio), 5));
   --type-5xl: calc(var(--type-base) * pow(var(--type-ratio), 6));
   --type-6xl: calc(var(--type-base) * pow(var(--type-ratio), 7));
-
 }
 @media screen and (width < 800px) {
   :root {
@@ -121,11 +126,9 @@
    ============================================================================= */
 
 :root {
-
   --leading-tight: 1;
   --leading-normal: 1.4;
   --leading-loose: 1.6;
-
 }
 
 /* =============================================================================
@@ -136,11 +139,9 @@
    ============================================================================= */
 
 :root {
-
-  --weight-normal:   400;
-  --weight-bold:     700;   /* for inline bold in body copy (p a, strong) */
-  --weight-heading:  600;
-
+  --weight-normal: 400;
+  --weight-bold: 700; /* for inline bold in body copy (p a, strong) */
+  --weight-heading: 600;
 }
 
 /* =============================================================================
@@ -150,9 +151,7 @@
    ============================================================================= */
 
 :root {
-
   --letterspacing-normal: 0;
-  --letterspacing-tight: -0.045em;   /* for inline bold in body copy (p a, strong) */
+  --letterspacing-tight: -0.045em; /* for inline bold in body copy (p a, strong) */
   --letterspacing-loose: 0.02em;
-
 }

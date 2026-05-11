@@ -2,7 +2,6 @@
    BASE FONTS
    ============================================================================= */
 
-
 body {
   font-family: var(--font-body);
   line-height: var(--leading-normal);
@@ -23,18 +22,31 @@ h2 {
   margin: 0;
 }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
   font-weight: var(--weight-heading);
   line-height: var(--leading-tight);
   margin: 0;
 }
 
-
-h1 { font-size: var(--type-6xl); }
-h2 { font-size: var(--type-5xl); }
-h3 { font-size: var(--type-4xl); }
-h4 { font-size: var(--type-3xl); }
-h5 { font-size: var(--type-2xl); }
-h6 { font-size: var(--type-xl);  }
-
+h1 {
+  font-size: var(--type-6xl);
+}
+h2 {
+  font-size: var(--type-5xl);
+}
+h3 {
+  font-size: var(--type-4xl);
+}
+h4 {
+  font-size: var(--type-3xl);
+}
+h5 {
+  font-size: var(--type-2xl);
+}
+h6 {
+  font-size: var(--type-xl);
+}

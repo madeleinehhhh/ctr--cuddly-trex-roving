@@ -1,10 +1,10 @@
 .btn {
-  margin:0;
+  margin: 0;
   padding: var(--space-xxs) var(--space-xs);
-  display:inline-block;
+  display: inline-block;
 
   background: var(--color-button-primary-background);
-  box-shadow: var( --shadow-elevation-medium);
+  box-shadow: var(--shadow-elevation-medium);
   color: var(--color-button-primary-text);
 
   scale: 1;
@@ -24,10 +24,11 @@
   background: var(--color-button-primary-hover-background);
   color: var(--color-button-primary-hover-text);
 }
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
   scale: 1.025;
   box-shadow: var(--shadow-elevation-high);
-} 
+}
 
 .btn:active {
   scale: 0.995;
@@ -37,7 +38,7 @@
 .btn.secondary {
   box-shadow: none;
   background: transparent;
-  
+
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius-sm);
 
@@ -51,7 +52,8 @@
   background: transparent;
   color: var(--color-button-primary-hover-text);
 }
-.btn.secondary:hover, .btn.secondary:focus {
+.btn.secondary:hover,
+.btn.secondary:focus {
   scale: 1.025;
   box-shadow: none;
 }

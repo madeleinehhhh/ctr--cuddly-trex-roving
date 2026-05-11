@@ -12,17 +12,18 @@ nav ul {
 }
 
 nav ul li {
-  margin:0;padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
   position: relative;
   text-decoration: none;
 }
-nav a:hover,
+/* nav a:hover,
 nav a:active,
 nav a:focus {
-}
+} */
 
 .current-page a {
   text-decoration-color: red;

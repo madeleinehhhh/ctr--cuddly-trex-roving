@@ -49,7 +49,6 @@ a {
   color: currentColor;
 }
 
-
 /* =============================================================================
    ACCESSIBILITY UTILITIES
    ============================================================================= */
@@ -57,28 +56,28 @@ a {
 /* Skip link — always present, only visible on focus */
 #skip-link {
   text-decoration: none;
-  background:      var(--color-surface-page);
-  color:           var(--color-text-default);
-  padding:         var(--space-xs) var(--space-md);
-  border:          1px solid var(--color-border-subtle);
-  border-radius:   2px;
+  background: var(--color-surface-page);
+  color: var(--color-text-default);
+  padding: var(--space-xs) var(--space-md);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: 2px;
 }
 
 #skip-link.visually-hidden:focus {
   position: absolute;
-  top:      var(--space-md);
-  left:     var(--space-md);
-  z-index:  999;
+  top: var(--space-md);
+  left: var(--space-md);
+  z-index: 999;
 }
 
 /* Visually hidden — hides content visually while keeping it in the a11y tree.
    Via https://www.a11yproject.com/posts/how-to-hide-content/               */
 .visually-hidden:not(:focus):not(:active) {
-  clip:        rect(0 0 0 0);
-  clip-path:   inset(50%);
-  height:      1px;
-  overflow:    hidden;
-  position:    absolute;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
   white-space: nowrap;
-  width:       1px;
+  width: 1px;
 }

@@ -4,11 +4,11 @@
 
 :root {
   --color-primitive-night: #0f3966;
-  --color-primitive-midnight: #0C1632;
+  --color-primitive-midnight: #0c1632;
   --color-primitive-darkestnight: #100900;
   --color-primitive-waterblue: #3375fb;
   --color-primitive-warmwhite: #faf8f4;
-  --color-primitive-warmwhite:#F8F5EE;
+  --color-primitive-warmwhite: #f8f5ee;
   --color-primitive-amberglow: #e8a430;
   --color-primitive-embers: #af631f;
   --color-primitive-eveningsun: #77420a;
@@ -36,14 +36,14 @@
    COLOR COMPONENT SLOTS
    ========================================================================== */
 
-:root { 
+:root {
   /* Add specific component slots here */
   --color-button-primary-background: var(--color-primitive-goldenhour);
   --color-button-primary-text: var(--color-primitive-midnight);
   --color-button-primary-hover-background: var(--color-primitive-amberglow);
   --color-button-primary-hover-text: var(--color-primitive-midnight);
   --color-link: var(--color-interactive);
-  --color-link-hover: oklch(from var(--color-link) calc(l * .8) c h);
+  --color-link-hover: oklch(from var(--color-link) calc(l * 0.8) c h);
 }
 
 /* Shadows */
@@ -51,15 +51,15 @@
   --shadow-color: var(--color-surface);
   --shadow-darkness: 0.6;
   --shadow-elevation-low:
-    0px 0.1px 0.5px   oklch(from var(--shadow-color) var(--shadow-darkness) c h/ 0.20),
-    0px 0.5px 1.8px -0.5px   oklch(from var(--shadow-color) var(--shadow-darkness) c h/ 0.30);
+    0px 0.1px 0.5px oklch(from var(--shadow-color) var(--shadow-darkness) c h/ 0.2),
+    0px 0.5px 1.8px -0.5px oklch(from var(--shadow-color) var(--shadow-darkness) c h/ 0.3);
   --shadow-elevation-medium:
-    0px 0.1px 0.4px   oklch(from var(--shadow-color) var(--shadow-darkness) c h/ 0.18),
-    0px 0.8px 3.2px -0.2px   oklch(from var(--shadow-color) var(--shadow-darkness) c h/ 0.24),
-    0px 2.4px 8.0px -0.5px   oklch(from var(--shadow-color) var(--shadow-darkness) c h/ 0.30);
+    0px 0.1px 0.4px oklch(from var(--shadow-color) var(--shadow-darkness) c h/ 0.18),
+    0px 0.8px 3.2px -0.2px oklch(from var(--shadow-color) var(--shadow-darkness) c h/ 0.24),
+    0px 2.4px 8px -0.5px oklch(from var(--shadow-color) var(--shadow-darkness) c h/ 0.3);
   --shadow-elevation-high:
-    0px 0.1px 0.4px   oklch(from var(--shadow-color) var(--shadow-darkness) c h/ 0.18),
-    0px 1.0px 3.8px -0.1px   oklch(from var(--shadow-color) var(--shadow-darkness) c h/ 0.23),
-    0px 2.8px 9.2px -0.3px   oklch(from var(--shadow-color) var(--shadow-darkness) c h/ 0.29),
-    0px 5.0px 15.0px -0.5px   oklch(from var(--shadow-color) var(--shadow-darkness) c h/ 0.34);
+    0px 0.1px 0.4px oklch(from var(--shadow-color) var(--shadow-darkness) c h/ 0.18),
+    0px 1px 3.8px -0.1px oklch(from var(--shadow-color) var(--shadow-darkness) c h/ 0.23),
+    0px 2.8px 9.2px -0.3px oklch(from var(--shadow-color) var(--shadow-darkness) c h/ 0.29),
+    0px 5px 15px -0.5px oklch(from var(--shadow-color) var(--shadow-darkness) c h/ 0.34);
 }

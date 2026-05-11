@@ -2,25 +2,20 @@
 title: Christ the Reconciler
 layout: home
 ---
+
 <div class="block">
   <h2>Learn more</h2>
   <div class="cards">
     {% for home in collections.homes %}
-      <div class="card">
-        <h3>
-          <a href="{{ home.url }}">
-            {{ home.data.title }}
-          </a>
-        </h3>
-        <p>Description: 
-          {{ home.data.description }}
-        </p>
-        <div>
-          <a class="btn" href="{{ home.url }}">
-            Read more about {{ home.data.title }}
-          </a>
-        </div>
+    <div class="card">
+      <h3>
+        <a href="{{ home.url }}"> {{ home.data.title }} </a>
+      </h3>
+      <p>Description: {{ home.data.description }}</p>
+      <div>
+        <a class="btn" href="{{ home.url }}"> Read more about {{ home.data.title }} </a>
       </div>
+    </div>
     {% endfor %}
   </div>
 </div>
@@ -31,5 +26,6 @@ layout: home
   <blockquote>
     <p>I pray also for whoever will believe in me through their message, so that they all will be one, Father, just as you are in me and I am in you.</p>
 
-  <p>May they also be one in us so that this world will believe that you sent me into this world.</p>
-</blockquote>
+    <p>May they also be one in us so that this world will believe that you sent me into this world.</p>
+  </blockquote>
+</div>
