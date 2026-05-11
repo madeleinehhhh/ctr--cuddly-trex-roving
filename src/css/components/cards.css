@@ -17,6 +17,9 @@
   display: grid;
   gap: var(--space-sm);
 }
+a.card::before {
+  content: unset;
+}
 
 .card h3 {
   font-size: var(--type-2xl);
