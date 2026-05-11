@@ -1,12 +1,21 @@
-<nav aria-label="Main Navigation">
-  <ul class="nav">
-    <li {% if page.url == "/" %}class="current-page"{% endif %}><a href="/">Home</a></li>
-    {% for home in collections.homes %}
-      <li {% if page.url == home.url %}class="current-page"{% endif %}>
-        <a href="{{ home.url }}">
-          {{ home.data.title }}
-        </a>
-      </li>
+{% macro renderTree(items, currentUrl, maxDepth, currentDepth) %}
+{% set currentDepth = currentDepth or 1 %}
+<ul class="nav nav-depth-{{ currentDepth }}">
+  {% for item in items %}
+  <li{% if currentUrl == item.url %} class="current-page"{% endif %}>
+    {% if item.url %}
+    <a href="{{ item.url }}">{{ item.title }}</a>
+    {% else %}
+    <span>{{ item.slug }}</span>
+    {% endif %}
+    {% if item.children.length and currentDepth < maxDepth %}
+      {{ renderTree(item.children, currentUrl, maxDepth, currentDepth + 1) }}
+    {% endif %}
+  </li>
   {% endfor %}
-  </ul>
+</ul>
+{% endmacro %}
+
+<nav aria-label="Main Navigation">
+  {{ renderTree(collections.pageTree, page.url, 1) }}
 </nav>

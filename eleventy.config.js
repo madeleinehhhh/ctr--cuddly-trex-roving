@@ -16,6 +16,35 @@ export default function (eleventyConfig) {
     collectionApi.getFilteredByGlob("src/*/index.njk")
   );
 
+// menu
+eleventyConfig.addCollection("pageTree", (collectionApi) => {
+  const pages = collectionApi.getFilteredByGlob(["src/**/*.njk", "src/**/*.md"])
+    .filter(p => !p.inputPath.includes("_includes"))
+    .sort((a, b) => a.url.localeCompare(b.url));
+
+  const root = { children: [] };
+
+  for (const page of pages) {
+    const parts = page.url.split("/").filter(Boolean);
+    let node = root;
+    for (let i = 0; i < parts.length; i++) {
+      const part = parts[i];
+      let child = node.children.find(c => c.slug === part);
+      if (!child) {
+        child = { slug: part, children: [] };
+        node.children.push(child);
+      }
+      if (i === parts.length - 1) {
+        child.url = page.url;
+        child.title = page.data.title;
+      }
+      node = child;
+    }
+  }
+
+  return root.children;
+});
+
   return {
     dir: {
       input: "src",
