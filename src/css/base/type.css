@@ -27,6 +27,7 @@ a {
   color: var(--color-link);
   transition: color var(--duration-ui) var(--ease-default);
   /* text-decoration: underline dotted oklch(from currentcolor calc(l * 1.52) c h); */
+  padding: var(--space-xs) var(--space-sm);
 }
 a::before {
   content: '';

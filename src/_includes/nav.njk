@@ -1,7 +1,7 @@
 {% macro renderTree(items, currentUrl, maxDepth, currentDepth) %} {% set currentDepth = currentDepth or 1 %}
 <ul class="nav nav-depth-{{ currentDepth }}">
   {% for item in items %}
-  <li {% if currentUrl="" ="item.url" %} class="current-page" {% endif %}>
+  <li {% if currentUrl=="item.url" %} class="current-page" {% endif %}>
     {% if item.url %}
     <a href="{{ item.url }}">{{ item.title }}</a>
     {% else %}
