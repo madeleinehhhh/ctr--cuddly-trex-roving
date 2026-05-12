@@ -14,7 +14,7 @@
   --space-lg: 3em;
 
   /* Layout tokens */
-  --layout-max-width: 80rem; /* Maximum width of the layout container */
+  --layout-max-width: 65rem; /* Maximum width of the layout container */
   --layout-gutter: var(--space-md); /* Default gutter between layout elements */
 
   /* Flow utility */

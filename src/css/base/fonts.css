@@ -12,14 +12,14 @@ h1 {
   font-family: var(--font-special);
   font-weight: var(--weight-special);
   line-height: var(--leading-tight);
-  margin: 0;
+  margin: var(--space-xxs);
 }
 
 h2 {
   font-family: var(--font-body);
   font-weight: var(--weight-heading);
   line-height: var(--leading-tight);
-  margin: 0;
+  margin: var(--space-xxs);
 }
 
 h3,
