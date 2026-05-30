@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-  font-family: var(--font-body);
+  font-family: var(--font-heading);
   font-weight: var(--weight-heading);
   line-height: var(--leading-tight);
   margin: var(--space-xxs);

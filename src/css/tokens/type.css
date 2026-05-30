@@ -95,7 +95,7 @@
   --type-base: clamp(1em, 22px + 1vi, 1.25em);
 
   /* Scale ratio — increase for a more dramatic hierarchy, decrease for subtler */
-  --type-ratio: 1.2;
+  --type-ratio: 1.15;
 
   /* Negative steps (smaller than body) */
   --type-xs: calc(var(--type-base) * pow(var(--type-ratio), -1));
