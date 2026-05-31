@@ -140,6 +140,7 @@ The `src/` directory can be opened directly as an Obsidian vault. Wiki links (`[
 ### Recommended Obsidian settings
 
 - **Files and Links → Excluded files:** add `_site`, `node_modules`, `.git`
+- **`_internal/`** — add this folder to Obsidian's excluded files if you don't want internal docs appearing in search, or leave it included to use Obsidian's graph and search across all docs
 - **Files and Links → Default location for new notes:** `src` or a specific subfolder
 - **Files and Links → Default location for attachments:** `src/images`
 
@@ -216,6 +217,14 @@ To exclude a page from the nav entirely, add `eleventyExcludeFromCollections: tr
 
 ## Modifying eleventy.config.js
 
+**Ignoring files and folders:** 11ty automatically ignores `_includes` and `_data` folders, but does NOT automatically ignore other `_`-prefixed folders. To exclude `_internal/` from the build, create a `.eleventyignore` file in your project root containing:
+
+```
+src/_internal
+```
+
+This is equivalent to `.gitignore` — 11ty will skip any path listed there entirely.
+
 Valid reasons to modify `eleventy.config.js`:
 
 - Adding a new passthrough directory
@@ -224,3 +233,6 @@ Valid reasons to modify `eleventy.config.js`:
 - Adding a transform (e.g. for output processing)
 
 The config is ESM (`export default async function`). The interlinker plugin is loaded via dynamic `import()` because it is a CommonJS package.
+  _internal/              internal reference docs — excluded via .eleventyignore
+    ctr-content-framework.md
+    ctr-site-audit-and-architecture.md
