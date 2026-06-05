@@ -1,9 +1,9 @@
 ---
-title: "Statement of Personal Devotion"
+title: 'Statement of Personal Devotion'
 description: "CTR's rule of life — a personal covenant of five renunciations and five commitments to live out John 17."
-layout: "page.njk"
-permalink: "/practices/statement-of-devotion/"
-aliases: ["ctr-statement-of-devotion"]
+layout: 'page.njk'
+permalink: '/practices/statement-of-devotion/'
+aliases: ['ctr-statement-of-devotion']
 ---
 
 %% # Christ the Reconciler — /practices/statement-of-devotion Page Copy Draft %%
@@ -11,6 +11,7 @@ aliases: ["ctr-statement-of-devotion"]
 ---
 
 %%SECTION: HERO / OPENING%%
+
 ### The Statement of Personal Devotion
 
 A rule of life is a promise you make to yourself, to God, and to a community — a structured set of commitments that keeps you honest about what you say you believe, and accountable for how you actually act on it.
@@ -22,6 +23,7 @@ You do not have to move to Elgin. You do not have to leave your church. You do n
 ---
 
 %%SECTION: WHAT IT CONTAINS — orient before presenting%%
+
 ### What You're Committing To
 
 The Statement has five parts:
@@ -39,9 +41,10 @@ The Statement has five parts:
 ---
 
 %%SECTION: THE STATEMENT ITSELF%%
+
 ### The Statement of Personal Devotion
 
-*This statement is made freely and wholeheartedly. No other person has compelled me to do so, and it is my responsibility to carry it through. It is for me an act of love, carried out in concert with all those I am joining with to make this statement today.*
+_This statement is made freely and wholeheartedly. No other person has compelled me to do so, and it is my responsibility to carry it through. It is for me an act of love, carried out in concert with all those I am joining with to make this statement today._
 
 ---
 
@@ -63,7 +66,7 @@ I intend to remain active in worship, giving, and service to my local church, pa
 
 I devote myself to Jesus. I take into my own heart the prayer of his heart in John 17. To the best of my understanding and ability, I choose to live out Jesus' prayer for unity in his church each day for the next year:
 
-> *I pray also for whoever will believe in me through their message, so that they all will be one, Father, just as you are in me and I am in you. May they also be one in us so that this world will believe that you sent me into this world. I have given them the glory that you gave me, so that they will be one as we are one — I in them and you in me — so that they will be brought to complete unity. Then the world will know that you sent me into this world, and that you have loved them even as you have loved me.*
+> _I pray also for whoever will believe in me through their message, so that they all will be one, Father, just as you are in me and I am in you. May they also be one in us so that this world will believe that you sent me into this world. I have given them the glory that you gave me, so that they will be one as we are one — I in them and you in me — so that they will be brought to complete unity. Then the world will know that you sent me into this world, and that you have loved them even as you have loved me._
 > — John 17:20-23
 
 ---
@@ -80,18 +83,18 @@ Entering the unity of the Trinity requires walking in the light. To walk in the 
 
 1. I renounce hostility —
 
-   *Married men:* toward God, my wife, and all people.
+   _Married men:_ toward God, my wife, and all people.
 
-   *Married women:* toward God, my husband, and all people.
+   _Married women:_ toward God, my husband, and all people.
 
-   *Those who are not married:* toward God and toward all people.
+   _Those who are not married:_ toward God and toward all people.
 
 2. I renounce anti-Semitism.
 3. I renounce anti-Catholicism.
 4. I renounce anti-Protestantism.
 5. I renounce contempt toward all whom Christ has accepted.
 
-*I will be open to the Holy Spirit showing me additional areas for repentance.*
+_I will be open to the Holy Spirit showing me additional areas for repentance._
 
 ---
 
@@ -111,16 +114,16 @@ In order to live out John 17, I commit to these actions:
 
 I cannot live out John 17 in my own strength. I need the living Spirit of the living God to guide and empower me.
 
-*Come Holy Spirit, fill the hearts of your faithful,*
-*and kindle in them the fire of your love.*
-*Send forth your Spirit and they shall be created,*
-*and you shall renew the face of the earth.*
+_Come Holy Spirit, fill the hearts of your faithful,_
+_and kindle in them the fire of your love._
+_Send forth your Spirit and they shall be created,_
+_and you shall renew the face of the earth._
 
-*O God, who by the light of the Holy Spirit*
-*instructs the hearts of the faithful,*
-*grant that by the same Holy Spirit*
-*we may be truly wise and ever enjoy his consolations,*
-*through Christ our Lord. Amen.*
+_O God, who by the light of the Holy Spirit_
+_instructs the hearts of the faithful,_
+_grant that by the same Holy Spirit_
+_we may be truly wise and ever enjoy his consolations,_
+_through Christ our Lord. Amen._
 
 ---
 
@@ -131,6 +134,7 @@ Father, I desire to be with Jesus where he is, and to see his glory — the glor
 ---
 
 %%SECTION: AFTER THE STATEMENT — next steps%%
+
 ### What Happens Next
 
 For those not living at CTR, the Statement is renewed each year in February — in community with others making or renewing the same commitment. It is not a private transaction. It is a communal act, witnessed and shared.
@@ -139,25 +143,28 @@ For those living in the CTR community, the Statement is a living commitment wove
 
 If you are interested in making the Statement for the first time, we'd love to hear from you.
 
-[[ctr-connect-contact|Get in touch →]]
+[[ctr-connect-contact|Get in touch]]
 
 A full study guide for the Statement — with additional commentary, scripture references, and resources — is available to download.
 
-[[ctr-#|Download the Study Guide →]] *(link needed)*
+[[ctr-#|Download the Study Guide]] _(link needed)_
 
 ---
 
 %%SECTION: FURTHER EXPLORATION%%
-- [[ctr-practices-john17|John 17 — the root of the Statement →]]
-- [[ctr-practices-index|The Five Practices — the outward way of life →]]
-- [[ctr-connect-visit|Visit CTR — come and see →]]
+
+- [[ctr-practices-john17|John 17 — the root of the Statement]]
+- [[ctr-practices-index|The Five Practices — the outward way of life]]
+- [[ctr-connect-visit|Visit CTR — come and see]]
 
 ---
 
-*End of /practices/statement-of-devotion page copy*
+_End of /practices/statement-of-devotion page copy_
 
 ---
+
 ### Editor Notes
+
 - **The renunciations as written** in the original document vary by marital status ("First married men... then married women... then those who are not married"). This makes sense in a gathered liturgical setting but reads strangely on a web page. I've consolidated to a single form here. If the gendered/marital version is theologically important to preserve, it could live in the downloadable study guide rather than on the page itself.
 - **February renewal** — worth confirming this is still the annual rhythm and whether there's an event around it that should be linked or described.
 - **Study guide link** — placeholder; needs a real URL or file path.

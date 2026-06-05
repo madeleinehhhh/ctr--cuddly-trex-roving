@@ -1,9 +1,9 @@
 ---
-title: "Prayer"
+title: 'Prayer'
 description: "The first of CTR's five practices — daily prayer for the unity of the Body of Christ."
-layout: "page.njk"
-permalink: "/practices/prayer/"
-aliases: ["ctr-practices-prayer"]
+layout: 'page.njk'
+permalink: '/practices/prayer/'
+aliases: ['ctr-practices-prayer']
 ---
 
 %% # Christ the Reconciler — /practices/prayer Page Copy Draft %%
@@ -11,26 +11,29 @@ aliases: ["ctr-practices-prayer"]
 ---
 
 %%SECTION: HERO / OPENING%%
+
 ### Prayer
 
-Reconciliation begins with prayer — not because prayer is a warm-up to the real work, but because standing before God together *is* the real work. Before you can be reconciled to your brother, you have to stand with your brother before the Father.
+Reconciliation begins with prayer — not because prayer is a warm-up to the real work, but because standing before God together _is_ the real work. Before you can be reconciled to your brother, you have to stand with your brother before the Father.
 
 Prayer is the first practice of Christ the Reconciler because everything else flows from it.
 
 ---
 
 %%SECTION: WHAT WE MEAN BY PRAYER%%
+
 ### What We Mean by Prayer
 
 At CTR, prayer is not primarily a private activity. It is a communal act — the community gathering, daily, to stand before God together across all the differences that might otherwise keep them apart.
 
-This does not mean private prayer is unimportant. It means that the prayer CTR is most specifically called to is the prayer Jesus prayed in John 17 — a prayer *for* unity, prayed *in* unity, by people who are genuinely different from one another and have chosen to remain together anyway.
+This does not mean private prayer is unimportant. It means that the prayer CTR is most specifically called to is the prayer Jesus prayed in John 17 — a prayer _for_ unity, prayed _in_ unity, by people who are genuinely different from one another and have chosen to remain together anyway.
 
 When a Catholic and a Protestant and a Messianic Jew pray together — not despite their differences but through them — something happens that cannot happen any other way. The prayer itself becomes a form of reconciliation.
 
 ---
 
 %%SECTION: THE BRIDGE PRAYER%%
+
 ### The Daily Bridge Prayer
 
 The heartbeat of CTR's prayer practice is the Bridge Prayer — a short daily liturgy prayed by the community together, and available to anyone who wants to pray with them from wherever they are.
@@ -39,29 +42,31 @@ The Bridge Prayer is a bridge in two directions: it joins the members of CTR to 
 
 It closes with a longing the community carries in every prayer:
 
-*The Spirit and the Bride say, "Come!"*
-*Even so, come quickly, Lord Jesus.*
+_The Spirit and the Bride say, "Come!"_
+_Even so, come quickly, Lord Jesus._
 
-[[ctr-practices-daily-bridge-prayer|Pray today's Bridge Prayer →]]
+[[ctr-practices-daily-bridge-prayer|Pray today's Bridge Prayer]]
 
 [CONFIRM: Is there anything about the Bridge Prayer's origin, structure, or content that should be described here? Who wrote it? How long has it been in use? Is it the same prayer every day or does it vary?]
 
 ---
 
 %%SECTION: PRAYER AND RECONCILIATION%%
+
 ### Prayer and Reconciliation
 
 There is a reason prayer comes before reconciliation in CTR's five practices — and it is not merely sequential.
 
 Reconciliation is hard. Choosing to remain in genuine relationship with someone whose theology you believe is wrong, or whose tradition has wounded yours, is not natural. It requires grace that does not originate with us.
 
-Prayer is where that grace is received. When the community gathers daily before God, it is not performing piety. It is acknowledging that what it is attempting — real unity across real difference — cannot be done in human strength alone. The request for power at the end of the Statement of Personal Devotion says it plainly: *I cannot live out John 17 in my own strength. I need the living Spirit of the living God.*
+Prayer is where that grace is received. When the community gathers daily before God, it is not performing piety. It is acknowledging that what it is attempting — real unity across real difference — cannot be done in human strength alone. The request for power at the end of the Statement of Personal Devotion says it plainly: _I cannot live out John 17 in my own strength. I need the living Spirit of the living God._
 
 Prayer is the practice of returning, every day, to that acknowledgment.
 
 ---
 
 %%SECTION: LONGING FOR THE RETURN OF JESUS%%
+
 ### Longing for the Return of Jesus
 
 CTR's prayer practice is shaped by a specific longing that may seem surprising: the return of Jesus.
@@ -73,28 +78,30 @@ Every Bridge Prayer ends with that longing expressed. It orients everything else
 ---
 
 %%SECTION: HOW TO PARTICIPATE%%
+
 ### How to Participate
 
 **Pray the Bridge Prayer daily** — the most immediate way to join CTR's prayer practice from wherever you are. Updated each day and open to everyone.
-[[ctr-practices-daily-bridge-prayer|Today's Bridge Prayer →]]
+[[ctr-practices-daily-bridge-prayer|Today's Bridge Prayer]]
 
 **Visit for a retreat** — come and pray with the community in person. Experience what it means to stand before God together across traditions.
-[[ctr-connect-visit|Plan a visit →]]
+[[ctr-connect-visit|Plan a visit]]
 
-**Make the Statement of Personal Devotion** — the first commitment of the Statement is: *I will pray with Jesus for the unity of the Body of Christ.* The prayer practice begins there.
-[[ctr-statement-of-devotion|The Statement →]]
+**Make the Statement of Personal Devotion** — the first commitment of the Statement is: _I will pray with Jesus for the unity of the Body of Christ._ The prayer practice begins there.
+[[ctr-statement-of-devotion|The Statement]]
 
 ---
 
 %%SECTION: NAVIGATION%%
-- [[ctr-practices-daily-bridge-prayer|The Daily Bridge Prayer →]]
-- [[ctr-practices-reconciliation|Reconciliation — the second practice →]]
-- [[ctr-practices-index|The five practices →]]
-- [[ctr-statement-of-devotion|The Statement of Personal Devotion →]]
+
+- [[ctr-practices-daily-bridge-prayer|The Daily Bridge Prayer]]
+- [[ctr-practices-reconciliation|Reconciliation — the second practice]]
+- [[ctr-practices-index|The five practices]]
+- [[ctr-statement-of-devotion|The Statement of Personal Devotion]]
 
 ---
 
-*End of /practices/prayer page copy*
+_End of /practices/prayer page copy_
 
 ---
 

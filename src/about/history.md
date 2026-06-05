@@ -1,9 +1,9 @@
 ---
-title: "Our History"
-description: "Twenty-five years of faithful stumbling — the story of Christ the Reconciler from 1999 to today."
-layout: "page.njk"
-permalink: "/about/history/"
-aliases: ["ctr-about-history"]
+title: 'Our History'
+description: 'Twenty-five years of faithful stumbling — the story of Christ the Reconciler from 1999 to today.'
+layout: 'page.njk'
+permalink: '/about/history/'
+aliases: ['ctr-about-history']
 ---
 
 %% # Christ the Reconciler — /about/history Page Copy Draft %%
@@ -11,6 +11,7 @@ aliases: ["ctr-about-history"]
 ---
 
 %%SECTION: HERO / OPENING%%
+
 ### Our History
 
 God has been faithful through more than twenty-five years of stumbling forward.
@@ -20,6 +21,7 @@ This is not a story of a community that had a plan and executed it. It is a stor
 ---
 
 %%SECTION: 1999 — THE STIRRINGS%%
+
 ### 1999: Stirrings
 
 In the late 1990s, Thomas and Amy Cogdell were being stirred by the Holy Spirit — each in their own way.
@@ -28,15 +30,16 @@ For Amy, the stirring was unexpected and unwelcome at first. As a happy member o
 
 Thomas was mystified — but he trusted her ability to hear God's voice.
 
-For Thomas, the stirring came on February 14, 1999, while walking in East Austin near the Holly Street Power Plant. Suddenly he heard the Holy Spirit whisper four words into his heart: *"Power Plant of Prayer."* He went home and drew the vision in his journal.
+For Thomas, the stirring came on February 14, 1999, while walking in East Austin near the Holly Street Power Plant. Suddenly he heard the Holy Spirit whisper four words into his heart: _"Power Plant of Prayer."_ He went home and drew the vision in his journal.
 
-A few months later, he happened to be in Kansas City at a conference hosted by Metro Christian Fellowship. In the middle of the conference, Mike Bickle interrupted to announce they were starting a 24-hour house of prayer. The date was May 7, 1999. Thomas watched the first prayer team receive the key and go out — the beginning of what became the International House of Prayer (IHOP KC). He recognized immediately: *this is the same vision.*
+A few months later, he happened to be in Kansas City at a conference hosted by Metro Christian Fellowship. In the middle of the conference, Mike Bickle interrupted to announce they were starting a 24-hour house of prayer. The date was May 7, 1999. Thomas watched the first prayer team receive the key and go out — the beginning of what became the International House of Prayer (IHOP KC). He recognized immediately: _this is the same vision._
 
 In that same year, on their tenth wedding anniversary, Thomas and Amy traveled to Switzerland. In an ancient church in the small village of Romainmôtier, they heard the Lord open the door for Amy to officially become Catholic. It was on the same trip that they received the vision for what would become Wittenberg 2017.
 
 ---
 
 %%SECTION: 1999–2003 — AUSTIN HOUSE OF PRAYER%%
+
 ### 1999–2003: Austin House of Prayer — Beginnings
 
 Thomas began working toward a 24/7 prayer room in Austin. He found others pursuing the same vision and established two sets of prayer times — Thursday daytime sessions and a Friday night/Saturday morning night watch. This was the beginning of AHOP, the Austin House of Prayer.
@@ -46,11 +49,12 @@ Amy joined the Roman Catholic Church in 2001. Thomas fully supported this, under
 ---
 
 %%SECTION: 2003–2012 — A NEW DIRECTION%%
+
 ### 2003–2012: A New Direction
 
 Amy and Thomas were walking parallel paths. He was working hard to build AHOP. Her heart was being drawn into liturgy, silence, and contemplative prayer — life she did not find in the intense Harp and Bowl prayer model AHOP was built on.
 
-The tension came to a crisis in 2003. Thomas came to his senses and realized he was damaging Amy by trying to force her participation in a ministry that was not what God had called her to. He repented. Together they asked: *what next?*
+The tension came to a crisis in 2003. Thomas came to his senses and realized he was damaging Amy by trying to force her participation in a ministry that was not what God had called her to. He repented. Together they asked: _what next?_
 
 The answer surprised them. AHOP was not to be ended — but it had to change. If reconciliation was the core calling of their marriage, reconciliation had to be at the heart of AHOP.
 
@@ -65,6 +69,7 @@ Key staff members through these years — Felipe Adams, Michael and Joelene Mich
 ---
 
 %%SECTION: 2012–2017 — FOUNDATIONS%%
+
 ### 2012–2017: Christ the Reconciler — Foundations
 
 2012 was a year of testing. The community had a desire to purchase property and thought they had a good strategy — joining with Imagine Art to buy land on Springdale Road. God put up a clear stop sign. When it became clear in October 2012 that the Wittenberg 2017 initiative was going to move forward, all ideas of purchasing property were set aside.
@@ -82,17 +87,19 @@ The years 2012–2017 were also years of intense involvement in the Wittenberg 2
 ---
 
 %%SECTION: 2018 — YEAR OF REST%%
+
 ### 2018: A Year of Rest
 
 After the culmination of Wittenberg 2017, it was clear that Thomas and Amy needed a sabbatical. But it was not a passive rest. It was a year of active listening — of discerning together what God was saying about the future of Christ the Reconciler.
 
-The question they heard clearly was this: *What would it mean for a community to live out John 17?*
+The question they heard clearly was this: _What would it mean for a community to live out John 17?_
 
 They explored it through a series of circle-preaching retreats on John 13–17, listening to each other and to the Lord about what he had in mind for CTR.
 
 ---
 
 %%SECTION: 2019–PRESENT — LIVING OUT JOHN 17%%
+
 ### 2019–Present: Living Out John 17
 
 2019 marked the beginning of a new season. With some trepidation, the community said yes to the high calling of striving toward John 17 as a community of Catholics, Protestants, and others from across the Body of Christ.
@@ -108,14 +115,15 @@ How faithful God has been through the years and decades. The community walks in 
 ---
 
 %%SECTION: NAVIGATION%%
-- [[ctr-about-index|Who we are today →]]
-- [[ctr-about-what-we-believe|What we believe →]]
-- [[ctr-about-friends|Our friends and collaborators →]]
-- [[ctr-connect-visit|Come visit →]]
+
+- [[ctr-about-index|Who we are today]]
+- [[ctr-about-what-we-believe|What we believe]]
+- [[ctr-about-friends|Our friends and collaborators]]
+- [[ctr-connect-visit|Come visit]]
 
 ---
 
-*End of /about/history page copy*
+_End of /about/history page copy_
 
 ---
 

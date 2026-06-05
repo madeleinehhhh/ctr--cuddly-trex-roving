@@ -1,9 +1,9 @@
 ---
-title: "Reconciliation"
+title: 'Reconciliation'
 description: "The second of CTR's five practices — concrete actions that remove hostility, repair damage, and restore the God-intended unity."
-layout: "page.njk"
-permalink: "/practices/reconciliation/"
-aliases: ["ctr-practices-reconciliation"]
+layout: 'page.njk'
+permalink: '/practices/reconciliation/'
+aliases: ['ctr-practices-reconciliation']
 ---
 
 %% # Christ the Reconciler — /practices/reconciliation Page Copy Draft %%
@@ -11,6 +11,7 @@ aliases: ["ctr-practices-reconciliation"]
 ---
 
 %%SECTION: HERO / OPENING%%
+
 ### Reconciliation
 
 Reconciliation is not a feeling. It is not a posture. It is not a metaphor.
@@ -22,6 +23,7 @@ It can be done. It must be done. And it begins with deciding that hostility is n
 ---
 
 %%SECTION: WHAT RECONCILIATION IS%%
+
 ### What Reconciliation Actually Is
 
 The word gets used so often, and so loosely, that it has lost its edges. People speak of reconciliation when they mean tolerance, or coexistence, or simply not fighting anymore. CTR means something more specific.
@@ -37,19 +39,21 @@ Reconciliation has three movements:
 ---
 
 %%SECTION: ECCLESIAL RECONCILIATION%%
+
 ### Ecclesial Reconciliation: CTR's Particular Focus
 
 There are many forms of reconciliation — racial, marital, communal, political. CTR does not claim these are unrelated to each other. The grace of reconciliation is one grace operating at different scales, and many CTR members are involved in forms of reconciliation that go well beyond the ecclesial.
 
 But CTR's particular calling — its specific focus — is **ecclesial reconciliation**: reconciliation between Christian traditions. Between Catholics and Protestants. Between Christians and Messianic Jews. Between Orthodox and Evangelical. Between communities that have treated each other as enemies for generations.
 
-This focus is not arbitrary. It flows directly from John 17. Jesus prayed for the unity of his people — his *ecclesial* people, the Church he was building. And he connected that unity directly to the credibility of the gospel: *"so that the world will believe that you sent me."* The divisions of the Church are not merely sad. They are a wound in the witness of Jesus to the watching world.
+This focus is not arbitrary. It flows directly from John 17. Jesus prayed for the unity of his people — his _ecclesial_ people, the Church he was building. And he connected that unity directly to the credibility of the gospel: _"so that the world will believe that you sent me."_ The divisions of the Church are not merely sad. They are a wound in the witness of Jesus to the watching world.
 
 Healing that wound is the work.
 
 ---
 
 %%SECTION: RECONCILIATION AS A WAY OF LIFE%%
+
 ### Reconciliation as a Way of Life
 
 Reconciliation is not a project with a completion date. It is a way of life — a set of habits, postures, and practices that you bring to every relationship, every conversation, every ecclesial encounter.
@@ -63,11 +67,12 @@ It is also, over time, a source of deep joy. The community at CTR will tell you 
 ---
 
 %%SECTION: RECONCILIATION AND THE WATCHING WORLD%%
+
 ### The Watching World
 
 Jesus did not pray for unity because it would make his followers feel better. He prayed for it because the watching world would take note.
 
-*"So that the world will believe that you sent me."*
+_"So that the world will believe that you sent me."_
 
 A divided and hostile church cannot credibly proclaim a reconciling God. When Christians treat each other with contempt, the world sees it and draws the obvious conclusion: whatever these people have, it isn't working.
 
@@ -78,6 +83,7 @@ CTR's reconciliation work is not peripheral to evangelism. It is essential to it
 ---
 
 %%SECTION: RECONCILIATION STORIES%%
+
 ### Reconciliation Stories
 
 The best way to understand what reconciliation looks like in practice is to see it.
@@ -87,30 +93,32 @@ The best way to understand what reconciliation looks like in practice is to see 
 ---
 
 %%SECTION: HOW TO PARTICIPATE%%
+
 ### How to Participate
 
 **Make the Statement of Personal Devotion** — the Statement's Five Renunciations and Five Commitments are the personal foundation of the reconciliation practice. You cannot practice reconciliation with others until you have named and renounced the hostility within yourself.
-[[ctr-statement-of-devotion|The Statement →]]
+[[ctr-statement-of-devotion|The Statement]]
 
 **Visit for a retreat** — come and experience what reconciliation looks like as a daily reality, not just a concept.
-[[ctr-connect-visit|Plan a visit →]]
+[[ctr-connect-visit|Plan a visit]]
 
 **Explore the teachings** — CTR's podcast library includes series specifically on the foundations and practice of reconciliation.
-[[ctr-teachings-series-foundations|Foundations of Reconciliation →]]
-[[ctr-teachings-series-boundaries|Boundaries of Reconciliation →]]
+[[ctr-teachings-series-foundations|Foundations of Reconciliation]]
+[[ctr-teachings-series-boundaries|Boundaries of Reconciliation]]
 
 ---
 
 %%SECTION: NAVIGATION%%
-- [[ctr-practices-prayer|Prayer — the first practice →]]
-- [[ctr-practices-formation|Formation — the third practice →]]
-- [[ctr-practices-index|The five practices →]]
-- [[ctr-statement-of-devotion|The Statement of Personal Devotion →]]
-- [[ctr-practices-john17|John 17 — the root of reconciliation →]]
+
+- [[ctr-practices-prayer|Prayer — the first practice]]
+- [[ctr-practices-formation|Formation — the third practice]]
+- [[ctr-practices-index|The five practices]]
+- [[ctr-statement-of-devotion|The Statement of Personal Devotion]]
+- [[ctr-practices-john17|John 17 — the root of reconciliation]]
 
 ---
 
-*End of /practices/reconciliation page copy*
+_End of /practices/reconciliation page copy_
 
 ---
 
@@ -119,6 +127,6 @@ The best way to understand what reconciliation looks like in practice is to see 
 - **The definition** — "Reconciliation is a concrete set of actions that removes hostility in a relationship, repairs the damage it caused, and restores the God-intended unity" — this is drawn directly from the community's own language on the 11ty homepage draft. It should be used consistently across the site wherever reconciliation is defined. It is the best single-sentence definition CTR has.
 - **The three movements** — removing hostility, repairing damage, restoring unity — are my synthesis from the existing material. [CONFIRM: Does this three-part structure reflect how Thomas teaches on reconciliation? If he uses different language or categories, those should replace mine.]
 - **Reconciliation Stories** — still marked [CONFIRM] pending verification of whether this is active.
-- **"Boundaries of Reconciliation"** — this is one of the podcast series listed. The title implies there is content about what reconciliation is *not*, or where its limits are. That could be a useful thread to pull on this page if the content supports it — e.g., reconciliation does not mean pretending differences don't exist, or that all theological positions are equally valid. [CONFIRM: Is this the right reading of that series?]
+- **"Boundaries of Reconciliation"** — this is one of the podcast series listed. The title implies there is content about what reconciliation is _not_, or where its limits are. That could be a useful thread to pull on this page if the content supports it — e.g., reconciliation does not mean pretending differences don't exist, or that all theological positions are equally valid. [CONFIRM: Is this the right reading of that series?]
 - **The Edinburgh 1910 reference** — this appears here and in the Mission section of the content framework. It is significant and worth keeping, but needs a brief gloss for visitors who won't know what it was. The current framing ("the founding moment of the modern ecumenical movement") provides that gloss.
 - **Tone** — this page is the most direct and declarative of all the pages drafted so far. That is intentional — reconciliation is CTR's central claim and it needs to be stated without hedging. Review to make sure the directness reads as conviction rather than aggression.

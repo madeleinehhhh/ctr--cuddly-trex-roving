@@ -25,6 +25,7 @@ Based on the brief, here is a proposed direction for the design system:
 
 - **Type scale**
   - refer to the following:
+
 ```
 /* =============================================================================
    2. TYPE SCALE
@@ -32,9 +33,9 @@ Based on the brief, here is a proposed direction for the design system:
    Reference: https://codepen.io/miriamsuzanne/pen/QwEXomP
 
    Steps named by distance from base:
-     negative steps → smaller than body copy
-     --type-base    → base/medium (body copy)
-     positive steps → larger than body copy
+     negative steps smaller than body copy
+     --type-base    base/medium (body copy)
+     positive steps larger than body copy
 
    Usage:
      font-size: var(--type-base);     body copy

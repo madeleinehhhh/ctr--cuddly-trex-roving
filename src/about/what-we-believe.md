@@ -1,9 +1,9 @@
 ---
-title: "What We Believe"
+title: 'What We Believe'
 description: "CTR's core beliefs and values — the ancient faith held across traditions, and the specific convictions that shape the ministry of reconciliation."
-layout: "page.njk"
-permalink: "/about/what-we-believe/"
-aliases: ["ctr-about-what-we-believe"]
+layout: 'page.njk'
+permalink: '/about/what-we-believe/'
+aliases: ['ctr-about-what-we-believe']
 ---
 
 %% # Christ the Reconciler — /about/what-we-believe Page Copy Draft %%
@@ -11,6 +11,7 @@ aliases: ["ctr-about-what-we-believe"]
 ---
 
 %%SECTION: HERO / OPENING%%
+
 ### What We Believe
 
 CTR does not hold a lowest-common-denominator faith. Our members hold their own traditions — Catholic, Protestant, Orthodox, Messianic Jewish, Pentecostal — seriously, with conviction and love.
@@ -20,6 +21,7 @@ What we share is not a reduced set of beliefs everyone can agree on. It is a set
 ---
 
 %%SECTION: THE ANCIENT FAITH%%
+
 ### The Ancient Faith
 
 The ground we stand on together is the ancient Christian faith — the Trinitarian God, the incarnation, death and resurrection of Jesus Christ, the work of the Holy Spirit, the one holy catholic and apostolic Church. This is the faith of the creeds, shared across Catholic, Orthodox, and Protestant traditions for two millennia.
@@ -29,6 +31,7 @@ Each CTR community member is an active, committed member of their own church, pa
 ---
 
 %%SECTION: CORE VALUES%%
+
 ### Core Values
 
 Beyond the shared ground of the ancient faith, CTR holds a set of values it believes are essential for walking out the ministry of reconciliation. These are not universal Christian obligations — they are the particular convictions that shape this community's specific calling.
@@ -51,8 +54,8 @@ Both Catholic and Protestant streams have been guilty of hostility toward the Je
 **Longing for the Return of Jesus**
 We fan the flames of longing for Jesus' return — not as escapism, but as love. Every Bridge Prayer ends with the cry of the Bride:
 
-*The Spirit and the Bride say, "Come!"*
-*Even so, come quickly, Lord Jesus.*
+_The Spirit and the Bride say, "Come!"_
+_Even so, come quickly, Lord Jesus._
 
 **The Beauty of the Mystery of the Trinity**
 Peter Kreeft has helpfully distinguished between problems, which are given to men to solve, and mysteries, which are given to men to draw forth worship. The Holy Trinity is a mystery. Our friend George Miley writes: each person of the Trinity relates to the others in harmony, submission, and honor — agape love. There is no dishonor, competition, jealousy, or unkindness among the Trinity. The love of each person of the Trinity finds perfection in honoring the others. For us, this is not a doctrine to master. It is a mystery to gaze upon in awe.
@@ -60,6 +63,7 @@ Peter Kreeft has helpfully distinguished between problems, which are given to me
 ---
 
 %%SECTION: WHAT WE ARE NOT%%
+
 ### What We Renounce
 
 CTR's beliefs are not only affirmations. They include renunciations — specific forms of hostility that the community has named and committed to leaving behind.
@@ -74,26 +78,29 @@ Every member who makes the Statement of Personal Devotion renounces:
 
 These are not polite gestures. They are specific, because the hostilities are specific. The wounds between traditions have real names and real histories. Healing them requires naming them.
 
-[[ctr-statement-of-devotion|Read the full Statement of Personal Devotion →]]
+[[ctr-statement-of-devotion|Read the full Statement of Personal Devotion]]
 
 ---
 
 %%SECTION: NAVIGATION%%
-- [[ctr-about-index|About CTR →]]
-- [[ctr-practices-john17|John 17 — the root of everything →]]
-- [[ctr-statement-of-devotion|The Statement of Personal Devotion →]]
-- [[ctr-teachings-reading-list|Reading list →]]
-- [[ctr-about-friends|Friends and commendations →]]
+
+- [[ctr-about-index|About CTR]]
+- [[ctr-practices-john17|John 17 — the root of everything]]
+- [[ctr-statement-of-devotion|The Statement of Personal Devotion]]
+- [[ctr-teachings-reading-list|Reading list]]
+- [[ctr-about-friends|Friends and commendations]]
 
 ---
 
-*End of /about/what-we-believe page copy*
+_End of /about/what-we-believe page copy_
 
 ---
+
 ### Editor Notes
+
 - **Core values text**: Drawn closely from the existing Core Beliefs page on the current site. The language has been lightly edited for the web but is substantially Thomas's own voice. Review carefully — this page more than any other should sound like him.
 - **George Miley**: Referenced twice — for the definition of humility and for the Trinity section. He appears in the podcast library as a teacher and is clearly a significant friend and influence. Consider whether a brief identifying phrase ("our friend and teacher George Miley") is needed for newcomers who don't know who he is.
 - **Peter Kreeft**: Referenced for the problem/mystery distinction regarding the Trinity. The existing site cites him without further description. A brief identifier ("philosopher Peter Kreeft") may help newcomers.
-- **Mark Kinzer**: The existing Core Beliefs page references his book *Searching Her Own Mystery* in connection with the Messianic Jewish perspective on the Nicene Creed. That reference has been left off this page to avoid making it feel like a bibliography, but it appears on the Reading List page.
+- **Mark Kinzer**: The existing Core Beliefs page references his book _Searching Her Own Mystery_ in connection with the Messianic Jewish perspective on the Nicene Creed. That reference has been left off this page to avoid making it feel like a bibliography, but it appears on the Reading List page.
 - **The filioque**: The existing Core Beliefs page places "and the Son" in brackets in the Nicene Creed to honor Eastern Orthodox practice. That nuance is appropriate for a page that displays the full Creed text, but since we're not displaying the Creed here, it doesn't need to appear. If the full Creed text is ever added to this page or a related page, restore that note.
 - **"Lowest-common-denominator"**: This phrase appears in the opening and is doing important work — distinguishing CTR's approach from generic ecumenism. Keep it.

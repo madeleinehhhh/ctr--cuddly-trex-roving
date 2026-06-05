@@ -1,9 +1,9 @@
 ---
-title: "Formation"
+title: 'Formation'
 description: "The third of CTR's five practices — allowing yourself to be changed by scripture, tradition, teaching, and community."
-layout: "page.njk"
-permalink: "/practices/formation/"
-aliases: ["ctr-practices-formation"]
+layout: 'page.njk'
+permalink: '/practices/formation/'
+aliases: ['ctr-practices-formation']
 ---
 
 %% # Christ the Reconciler — /practices/formation Page Copy Draft %%
@@ -11,6 +11,7 @@ aliases: ["ctr-practices-formation"]
 ---
 
 %%SECTION: HERO / OPENING%%
+
 ### Formation
 
 Reconciliation requires people who have been changed. Not just people who have agreed to try harder, or who have signed a statement of good intentions — but people who have actually been formed into something different than what they were.
@@ -20,6 +21,7 @@ Formation is the practice of allowing that change to happen.
 ---
 
 %%SECTION: WHAT FORMATION IS%%
+
 ### What Formation Is
 
 Formation is not education. Education transfers information. Formation changes the person receiving it.
@@ -33,6 +35,7 @@ Formation at CTR is the practice of being intentional about that process — cho
 ---
 
 %%SECTION: FORMATION AND THE TRADITION%%
+
 ### Formation and the Whole Tradition
 
 One of the gifts of an ecumenical community is access to the whole tradition of the Church — not just the slice of it that your own tradition has preserved.
@@ -46,6 +49,7 @@ This is not theological relativism. CTR holds firm to the ancient Christian fait
 ---
 
 %%SECTION: REGULAR FORMATION RESOURCES%%
+
 ### Formation Resources — Updated Regularly
 
 CTR offers three regularly updated resources to support formation for anyone, anywhere:
@@ -56,7 +60,7 @@ CTR offers three regularly updated resources to support formation for anyone, an
 
 Each week CTR shares a teaching — from a community member, from a friend of the community, or from the wider tradition — selected to form the mind and heart toward reconciliation and unity.
 
-[[ctr-practices-teaching-of-the-week|This week's teaching →]]
+[[ctr-practices-teaching-of-the-week|This week's teaching]]
 
 ---
 
@@ -64,7 +68,7 @@ Each week CTR shares a teaching — from a community member, from a friend of th
 
 Each month CTR shares a book the community is reading together. These are books that have shaped CTR's thinking — on reconciliation, on ecumenism, on prayer, on the Christian life — and that are offered to the wider community as an invitation to read along.
 
-[[ctr-practices-book-of-the-month|This month's book →]]
+[[ctr-practices-book-of-the-month|This month's book]]
 
 ---
 
@@ -72,22 +76,24 @@ Each month CTR shares a book the community is reading together. These are books 
 
 CTR's teaching library contains recordings by community members and friends covering the theological foundations of reconciliation, the practice of ecumenical community, the Nicene Creed, and much more. These are not polished productions. They are teachings from a community that has been living this for twenty-five years.
 
-[[ctr-teachings-index|Browse the teachings →]]
+[[ctr-teachings-index|Browse the teachings]]
 
 ---
 
 %%SECTION: PASSING THROUGH BACA%%
+
 ### Passing Through Baca
 
-*Passing Through Baca* is Amy Cogdell's written reflection series — a more personal and contemplative thread of formation, named for Psalm 84:6: the valley of weeping that God transforms into a place of springs.
+_Passing Through Baca_ is Amy Cogdell's written reflection series — a more personal and contemplative thread of formation, named for Psalm 84:6: the valley of weeping that God transforms into a place of springs.
 
 [CONFIRM: Brief description of what Amy writes about and how often it is updated. Is it still active?]
 
-[[ctr-teachings-passing-through-baca|Read Passing Through Baca →]]
+[[ctr-teachings-passing-through-baca|Read Passing Through Baca]]
 
 ---
 
 %%SECTION: FORMATION AND HUMILITY%%
+
 ### Formation and Humility
 
 CTR's core values include what the community calls "living in humility" — defined not as self-deprecation but as living according to the truth. The truth is that we are beloved of God and broken by our own choices. Both things are true at the same time.
@@ -99,35 +105,37 @@ This kind of humility is not weakness. It is the precondition of reconciliation.
 ---
 
 %%SECTION: HOW TO PARTICIPATE%%
+
 ### How to Participate
 
 **Follow the weekly and monthly resources** — the most accessible entry point into CTR's formation practice from wherever you are.
-[[ctr-practices-teaching-of-the-week|Teaching of the Week →]]
-[[ctr-practices-book-of-the-month|Book of the Month →]]
+[[ctr-practices-teaching-of-the-week|Teaching of the Week]]
+[[ctr-practices-book-of-the-month|Book of the Month]]
 
 **Browse the teaching library** — twenty-five years of teaching on reconciliation, ecumenism, community, and the Christian life.
-[[ctr-teachings-index|Teachings →]]
+[[ctr-teachings-index|Teachings]]
 
 **Visit for a retreat** — formation happens most powerfully in community. Come and experience it in person.
-[[ctr-connect-visit|Plan a visit →]]
+[[ctr-connect-visit|Plan a visit]]
 
 **Make the Statement of Personal Devotion** — the fifth commitment of the Statement is to honor other traditions' communion practices while remaining true to your own. That commitment requires formation — you have to know enough about another tradition to honor it.
-[[ctr-statement-of-devotion|The Statement →]]
+[[ctr-statement-of-devotion|The Statement]]
 
 ---
 
 %%SECTION: NAVIGATION%%
-- [[ctr-practices-reconciliation|Reconciliation — the second practice →]]
-- [[ctr-practices-hospitality|Hospitality — the fourth practice →]]
-- [[ctr-practices-index|The five practices →]]
-- [[ctr-practices-teaching-of-the-week|The Teaching of the Week →]]
-- [[ctr-practices-book-of-the-month|The Book of the Month →]]
-- [[ctr-teachings-reading-list|Reading list — books that have shaped CTR's thinking →]]
-- [[ctr-teachings-index|The teachings library →]]
+
+- [[ctr-practices-reconciliation|Reconciliation — the second practice]]
+- [[ctr-practices-hospitality|Hospitality — the fourth practice]]
+- [[ctr-practices-index|The five practices]]
+- [[ctr-practices-teaching-of-the-week|The Teaching of the Week]]
+- [[ctr-practices-book-of-the-month|The Book of the Month]]
+- [[ctr-teachings-reading-list|Reading list — books that have shaped CTR's thinking]]
+- [[ctr-teachings-index|The teachings library]]
 
 ---
 
-*End of /practices/formation page copy*
+_End of /practices/formation page copy_
 
 ---
 

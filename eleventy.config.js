@@ -4,7 +4,6 @@
 //   npm install @photogabble/eleventy-plugin-interlinker
 
 export default async function (eleventyConfig) {
-
   // --- Wiki Links (Obsidian interop) ---
   // Resolves [[filename|display text]] wiki links in markdown files.
   // The plugin matches by filename stem, so [[ctr-about-index|text]]
@@ -22,7 +21,8 @@ export default async function (eleventyConfig) {
   eleventyConfig.amendLibrary('md', (mdLib) => {
     const originalRender = mdLib.render.bind(mdLib);
     mdLib.render = (src, env) => {
-      const stripped = src.replace(/%%[^%]*%%/gs, '');
+      const strippedout = src.replace(/%%[^%]*%%/gs, '');
+      const stripped = src.replace(/%%(.*?)%%/gs, '<p class="comment">$1</p>');
       return originalRender(stripped, env);
     };
   });
@@ -36,9 +36,7 @@ export default async function (eleventyConfig) {
 
   // Practices collection (for use in practice listing templates)
   eleventyConfig.addCollection('practices', (collectionApi) =>
-    collectionApi
-      .getFilteredByGlob('src/practices/*.njk')
-      .filter((p) => !p.filePathStem.endsWith('/index'))
+    collectionApi.getFilteredByGlob('src/practices/*.njk').filter((p) => !p.filePathStem.endsWith('/index'))
   );
 
   // Teachings collection — sorted newest-first

@@ -118,17 +118,19 @@ eleventy.config.js        11ty config
 Resolves Obsidian-style wiki links (`[[filename|display text]]`) in markdown files.
 
 **Install:**
+
 ```bash
 npm install @photogabble/eleventy-plugin-interlinker
 ```
 
-**How it works:** The plugin resolves links by filename stem. `[[ctr-about-index|About →]]` resolves to whichever page has the file `ctr-about-index.md` in `src`. No path prefix needed — just the filename.
+**How it works:** The plugin resolves links by filename stem. `[[ctr-about-index|About]]` resolves to whichever page has the file `ctr-about-index.md` in `src`. No path prefix needed — just the filename.
 
 **Dead links:** During build, unresolved wiki links are reported to the console. Change `deadLinkReport: 'console'` to `'none'` in `eleventy.config.js` to silence them, or `'json'` to write them to `.dead-links.json`.
 
 **Aliases:** To allow a page to be referenced by a short name, add an `aliases` array to its front matter:
+
 ```yaml
-aliases: ["John 17", "John17"]
+aliases: ['John 17', 'John17']
 ```
 
 ---
@@ -139,10 +141,10 @@ The `src/` directory can be opened directly as an Obsidian vault. Wiki links (`[
 
 ### Recommended Obsidian settings
 
-- **Files and Links → Excluded files:** add `_site`, `node_modules`, `.git`
+- **Files and Links Excluded files:** add `_site`, `node_modules`, `.git`
 - **`_internal/`** — add this folder to Obsidian's excluded files if you don't want internal docs appearing in search, or leave it included to use Obsidian's graph and search across all docs
-- **Files and Links → Default location for new notes:** `src` or a specific subfolder
-- **Files and Links → Default location for attachments:** `src/images`
+- **Files and Links Default location for new notes:** `src` or a specific subfolder
+- **Files and Links Default location for attachments:** `src/images`
 
 ### Editorial conventions in markdown files
 
@@ -158,27 +160,29 @@ Every content page uses the following front matter fields:
 
 ```yaml
 ---
-title: "Page Title"           # used in nav, <title>, og:title
-description: "One sentence."  # used in meta description, og:description
-layout: "page.njk"            # layout template (or home.njk for homepage)
-permalink: "/about/"          # explicit permalink — drives URL and nav tree
+title: 'Page Title' # used in nav, <title>, og:title
+description: 'One sentence.' # used in meta description, og:description
+layout: 'page.njk' # layout template (or home.njk for homepage)
+permalink: '/about/' # explicit permalink — drives URL and nav tree
 ---
 ```
 
 Internal/reference pages (content framework, site audit) use:
+
 ```yaml
 eleventyExcludeFromCollections: true
 ```
+
 This excludes them from the `pageTree` nav collection so they don't appear in the site navigation.
 
 ---
 
 ## Collections
 
-| Collection | Description |
-|---|---|
-| `pageTree` | Nested tree of all pages by URL — drives the main nav. Built from `title` front matter. |
-| `practices` | All practice pages (non-index) under `src/practices/`. |
+| Collection  | Description                                                                                                  |
+| ----------- | ------------------------------------------------------------------------------------------------------------ |
+| `pageTree`  | Nested tree of all pages by URL — drives the main nav. Built from `title` front matter.                      |
+| `practices` | All practice pages (non-index) under `src/practices/`.                                                       |
 | `teachings` | All teaching posts under `src/teachings/`. Sorted newest-first. Used to generate series and teacher indexes. |
 
 ### Teachings content model
@@ -187,15 +191,15 @@ Each teaching post (audio, video, or written) is a markdown file with this front
 
 ```yaml
 ---
-title: "Teaching Title"
+title: 'Teaching Title'
 date: 2021-03-14
-teacher: thomas-cogdell        # slug — drives /teachings/teachers/ index
-series: foundations-of-reconciliation  # slug — drives /teachings/series/ index
-type: audio                    # audio | video | written
-archive: false                 # true for Wittenberg 2017 and other closed collections
+teacher: thomas-cogdell # slug — drives /teachings/teachers/ index
+series: foundations-of-reconciliation # slug — drives /teachings/series/ index
+type: audio # audio | video | written
+archive: false # true for Wittenberg 2017 and other closed collections
 audio_url: https://...
 video_url: https://...
-podcast_feed: true             # whether this post feeds the Apple Podcasts RSS
+podcast_feed: true # whether this post feeds the Apple Podcasts RSS
 layout: teaching.njk
 permalink: /teachings/{{ series }}/{{ title | slug }}/
 ---
@@ -233,6 +237,6 @@ Valid reasons to modify `eleventy.config.js`:
 - Adding a transform (e.g. for output processing)
 
 The config is ESM (`export default async function`). The interlinker plugin is loaded via dynamic `import()` because it is a CommonJS package.
-  _internal/              internal reference docs — excluded via .eleventyignore
-    ctr-content-framework.md
-    ctr-site-audit-and-architecture.md
+\_internal/ internal reference docs — excluded via .eleventyignore
+ctr-content-framework.md
+ctr-site-audit-and-architecture.md

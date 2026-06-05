@@ -1,9 +1,9 @@
 ---
-title: "Hospitality"
+title: 'Hospitality'
 description: "The fourth of CTR's five practices — opening the door, setting the table, and making room."
-layout: "page.njk"
-permalink: "/practices/hospitality/"
-aliases: ["ctr-practices-hospitality"]
+layout: 'page.njk'
+permalink: '/practices/hospitality/'
+aliases: ['ctr-practices-hospitality']
 ---
 
 %% # Christ the Reconciler — /practices/hospitality Page Copy Draft %%
@@ -11,6 +11,7 @@ aliases: ["ctr-practices-hospitality"]
 ---
 
 %%SECTION: HERO / OPENING%%
+
 ### Hospitality
 
 Reconciliation requires presence. You cannot be reconciled to someone you have never met, never shared a meal with, never sat across from long enough to see them as a full human being rather than a representative of a tradition you have opinions about.
@@ -20,6 +21,7 @@ Hospitality is the practice of making that presence possible — opening the doo
 ---
 
 %%SECTION: WHAT HOSPITALITY IS%%
+
 ### What Hospitality Is
 
 Hospitality at CTR is not a program. It is not a service offering. It is one of the five practices of the community's common life — which means it is something the community does because of who it is, not because it has decided hospitality is a good strategy.
@@ -31,6 +33,7 @@ This is not naivety. CTR has real commitments and a real way of life. Hospitalit
 ---
 
 %%SECTION: THE OPEN DOOR%%
+
 ### The Open Door
 
 CTR welcomes guests for retreats — individuals and groups who want to come and experience the community's common life, pray with the community, share meals, and see what a life shaped by John 17 looks like in practice.
@@ -39,11 +42,12 @@ Retreats at CTR are not conferences with a speaker and a schedule. They are imme
 
 That immersion is the point. Formation happens in the body, not just in the mind. Spending time in a place where Catholics and Protestants and Messianic Jews are genuinely, daily, actually living together does something to you that reading about it cannot.
 
-[[ctr-connect-visit|Plan a visit →]]
+[[ctr-connect-visit|Plan a visit]]
 
 ---
 
 %%SECTION: WHO COMES%%
+
 ### Who Comes
 
 CTR's door is open to anyone — curious newcomers, distant supporters, candidates considering deeper commitment, Christian leaders who want to experience ecumenical community firsthand, groups from local churches or campus ministries, and individuals who simply need a place to rest and pray.
@@ -55,6 +59,7 @@ You do not have to share CTR's theology to visit. You do not have to be consider
 ---
 
 %%SECTION: HOSPITALITY AND RECONCILIATION%%
+
 ### Hospitality as Reconciliation
 
 There is a reason hospitality is one of the five practices and not just a feature of the ministry center. Hospitality is itself a form of reconciliation.
@@ -66,6 +71,7 @@ Hospitality is reconciliation at its most immediate and embodied scale. It does 
 ---
 
 %%SECTION: PHASE 3 AND THE FUTURE OF HOSPITALITY%%
+
 ### The Future: A Place Built for Welcome
 
 The current ministry center has been the home of CTR's hospitality practice since 2014. Phase 3 of the physical development — planned for 2027 — will significantly expand what is possible.
@@ -74,11 +80,12 @@ The planned prayer chapel, residential houses, shared community spaces, secluded
 
 The vision has always been for the land to become a place people can come to and be changed by. Phase 3 is a major step toward that vision.
 
-[[ctr-about-community|Learn more about the land and development →]]
+[[ctr-about-community|Learn more about the land and development]]
 
 ---
 
 %%SECTION: HOSPITALITY IN DAILY LIFE%%
+
 ### Hospitality in Daily Life
 
 Hospitality at CTR is not reserved for retreats and special occasions. It is a daily practice — the shared meal, the open conversation, the willingness to make room for whoever shows up.
@@ -90,27 +97,29 @@ This conviction does not come naturally. It is formed over time, through practic
 ---
 
 %%SECTION: HOW TO PARTICIPATE%%
+
 ### How to Participate
 
 **Visit for a retreat** — the most direct way to experience CTR's hospitality. Come and see.
-[[ctr-connect-visit|Plan a visit →]]
+[[ctr-connect-visit|Plan a visit]]
 
 **Practice hospitality in your own context** — hospitality is not limited to those who can travel to Elgin. It is a practice you can bring to your own home, your own parish, your own neighborhood. Open the door. Set the table. Make room for someone from a tradition different from your own.
 
 **Support the work** — CTR's hospitality depends on the generosity of people who believe in what the community is doing. The door stays open because people help keep it open.
-[[ctr-connect-donate|Give →]]
+[[ctr-connect-donate|Give]]
 
 ---
 
 %%SECTION: NAVIGATION%%
-- [[ctr-practices-formation|Formation — the third practice →]]
-- [[ctr-practices-work|Work — the fifth practice →]]
-- [[ctr-practices-index|The five practices →]]
-- [[ctr-connect-visit|Plan a visit →]]
+
+- [[ctr-practices-formation|Formation — the third practice]]
+- [[ctr-practices-work|Work — the fifth practice]]
+- [[ctr-practices-index|The five practices]]
+- [[ctr-connect-visit|Plan a visit]]
 
 ---
 
-*End of /practices/hospitality page copy*
+_End of /practices/hospitality page copy_
 
 ---
 

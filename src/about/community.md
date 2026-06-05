@@ -1,9 +1,9 @@
 ---
-title: "The Community"
-description: "The people, the land, and the physical spaces of Christ the Reconciler in Elgin, Texas."
-layout: "page.njk"
-permalink: "/about/community/"
-aliases: ["ctr-about-community"]
+title: 'The Community'
+description: 'The people, the land, and the physical spaces of Christ the Reconciler in Elgin, Texas.'
+layout: 'page.njk'
+permalink: '/about/community/'
+aliases: ['ctr-about-community']
 ---
 
 %% # Christ the Reconciler — /about/community Page Copy Draft %%
@@ -11,6 +11,7 @@ aliases: ["ctr-about-community"]
 ---
 
 %%SECTION: HERO / OPENING%%
+
 ### The Community
 
 Christ the Reconciler is a community of lay followers of Jesus — Protestants, Catholics, Eastern Orthodox, Pentecostals, and Jews — living out John 17 together in Elgin, Texas, with members across the US and in Germany.
@@ -20,6 +21,7 @@ We are not a religious order. We are not a denomination. We are ordinary Christi
 ---
 
 %%SECTION: THE PEOPLE%%
+
 ### The People
 
 CTR is made up of residential and non-residential members at different levels of commitment and participation.
@@ -37,6 +39,7 @@ The community includes diverse ages, backgrounds, lived experiences, and politic
 ---
 
 %%SECTION: THE FOUNDERS%%
+
 ### The Founders
 
 Thomas and Amy Cogdell founded Christ the Reconciler — though they would be the first to say that God founded it and they mostly tried to keep up.
@@ -52,9 +55,10 @@ Thomas and Amy have been walking this road since 1999. They moved onto the Elgin
 ---
 
 %%SECTION: THE LAND%%
+
 ### The Land
 
-*[Visual: aerial or ground-level photo of the Elgin property]*
+_[Visual: aerial or ground-level photo of the Elgin property]_
 
 Sixteen acres, seven minutes south of Elgin, thirty minutes east of Austin.
 
@@ -65,13 +69,14 @@ The vision for the land is simple and ambitious: to become a visible and visitab
 ---
 
 %%SECTION: WHAT EXISTS NOW%%
+
 ### What's Here Now
 
 **The Ministry Center**
 The original house on the property was finished out in 2014 and became the hub of CTR's community life. It is where the community gathers for daily prayer, shares meals, hosts retreats, holds meetings, and welcomes guests. It is home.
 
 **The Cielo Warehouse**
-*[Visual: exterior of warehouse, Cielo branding]*
+_[Visual: exterior of warehouse, Cielo branding]_
 
 Cielo is CTR's bottled water company — and it is the economic engine of the community. In 2017, a 9,600 sq ft warehouse was built on the property to house the Cielo operation. In 2026, the manufacturing portion of the business was moved into the warehouse and significantly upgraded.
 
@@ -82,9 +87,10 @@ Cielo is not a side project or a fundraising mechanism. It is a genuine business
 ---
 
 %%SECTION: WHAT'S COMING%%
+
 ### What's Coming: Phase 3
 
-*[Visual: site plan / concept renderings]*
+_[Visual: site plan / concept renderings]_
 
 Phase 3 — planned for 2027 — will add the first set of ten residential houses and a prayer chapel, along with shared community spaces, trails, and infrastructure.
 
@@ -104,11 +110,12 @@ The design is intentional in every detail:
 
 A naturalized bioswale at the entrance serves as a gateway crossing — a threshold between the outside world and the common life within. The land is meant to speak before anyone says a word.
 
-*[Visual: site plan from Circle V Landscape Architecture, February 2025]*
+_[Visual: site plan from Circle V Landscape Architecture, February 2025]_
 
 ---
 
 %%SECTION: PHASE 4%%
+
 ### And Beyond: Phase 4
 
 Phase 4 will add a second set of houses on the south side of the land, once the community has grown to the size that warrants it. The land has room to grow. The vision is long.
@@ -116,17 +123,18 @@ Phase 4 will add a second set of houses on the south side of the land, once the 
 ---
 
 %%SECTION: INVITATION%%
+
 ### Come and See
 
 The best way to understand CTR is to visit. Come for a retreat. Share a meal. Pray the Bridge Prayer with the community. Stay long enough to see what a life shaped by John 17 actually looks like in practice.
 
-[[ctr-connect-visit|Plan a visit →]]
-[[ctr-connect-visit|Learn about retreats →]]
-[[ctr-connect-contact|Contact us →]]
+[[ctr-connect-visit|Plan a visit]]
+[[ctr-connect-visit|Learn about retreats]]
+[[ctr-connect-contact|Contact us]]
 
 ---
 
-*End of /about/community page copy*
+_End of /about/community page copy_
 
 ---
 

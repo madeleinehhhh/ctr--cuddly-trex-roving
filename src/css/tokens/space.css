@@ -2,7 +2,7 @@
    SPACING TOKENS
    Four-step em-based scale: --space-xs, --space-sm, --space-md, --space-lg
    Layout tokens separately: --layout-max-width, --layout-gutter-*, etc.
-   --space-flow for the .flow utility
+   --space-prose for the .prose utility
    ============================================================================= */
 
 :root {
@@ -14,9 +14,9 @@
   --space-lg: 3em;
 
   /* Layout tokens */
-  --layout-max-width: 65rem; /* Maximum width of the layout container */
+  --layout-max-width: 55rem; /* Maximum width of the layout container */
   --layout-gutter: var(--space-md); /* Default gutter between layout elements */
 
-  /* Flow utility */
-  --space-flow: var(--space-md);
+  /* Prose utility */
+  --space-prose: var(--space-md);
 }

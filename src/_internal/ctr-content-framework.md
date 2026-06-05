@@ -1,21 +1,21 @@
 ---
-title: "Content Framework"
-description: "North star document for all CTR website copy — vocation, charism, rule of life, common life, mission, and constitutions."
-layout: "page.njk"
+title: 'Content Framework'
+description: 'North star document for all CTR website copy — vocation, charism, rule of life, common life, mission, and constitutions.'
+layout: 'page.njk'
 ---
 
 %% # Christ the Reconciler — Content Framework %%
-*North star document for all website copy. All page drafts should derive from and be consistent with this framework. Language marked [CONFIRM] needs verification or input from Thomas, Amy, or the community before being used publicly.*
+_North star document for all website copy. All page drafts should derive from and be consistent with this framework. Language marked [CONFIRM] needs verification or input from Thomas, Amy, or the community before being used publicly._
 
 ---
 
 ## 1. Vocation
 
-*What CTR is called to be. The call it is responding to.*
+_What CTR is called to be. The call it is responding to._
 
 Christ the Reconciler is a missional community of reconciliation made up of Protestants, Catholics, Eastern Orthodox, Pentecostals, and Jews — both residential and non-residential members — seeking to live out John 17, Jesus' only recorded prayer for all his people.
 
-The word *ecumenical* describes both the composition and the goal of the community. CTR is ecumenical in who is in the room, and ecumenical in what it is trying to produce.
+The word _ecumenical_ describes both the composition and the goal of the community. CTR is ecumenical in who is in the room, and ecumenical in what it is trying to produce.
 
 CTR is a community of **lay followers of Jesus** — not a religious order, not a denomination, not a parachurch program. Its members are rooted in their own churches, parishes, and synagogues. The community does not replace those roots. It deepens them.
 
@@ -26,6 +26,7 @@ The vision for the physical land in Elgin captures this well: CTR is meant to be
 The vocation is grounded in Jesus' prayer the night before his crucifixion:
 
 > "That they all may be one, Father, just as you are in me and I am in you — may they also be one in us, so that the world will believe that you sent me."
+>
 > — John 17:21
 
 Jesus connects the unity of his people directly to the intelligibility of the gospel. A divided and hostile church obscures the witness of Jesus to the watching world. A reconciled church makes that witness visible. CTR exists in service of that visibility.
@@ -36,13 +37,13 @@ By God's grace, CTR has been able to impact, face to face, people from 54 nation
 
 ## 2. Charism
 
-*The particular grace God has entrusted to this community for the building up of the Body of Christ.*
+_The particular grace God has entrusted to this community for the building up of the Body of Christ._
 
-The word *charism* shares its root with *charity* and *grace* — it refers to a particular gift of the Holy Spirit given not for the recipient's benefit alone, but for the building up of the whole Body of Christ. Charisms are always specific: given to particular people, in particular relationships, for a particular moment in the life of the Church.
+The word _charism_ shares its root with _charity_ and _grace_ — it refers to a particular gift of the Holy Spirit given not for the recipient's benefit alone, but for the building up of the whole Body of Christ. Charisms are always specific: given to particular people, in particular relationships, for a particular moment in the life of the Church.
 
 CTR's charism is **reconciliation across genuine Christian difference** — not as a program or a method, but as a grace received and embodied in the particularity of its members' lives and relationships.
 
-This charism was first embodied in the founders. Thomas and Amy Cogdell are a Protestant-Catholic married couple who have had to practice reconciliation not as a theory but as a daily reality — across the dinner table, in how they pray, in how they raise their children, in how they navigate the real and unresolved differences between their traditions. Their marriage is not an illustration of the charism. It *is* the charism, at its most intimate scale.
+This charism was first embodied in the founders. Thomas and Amy Cogdell are a Protestant-Catholic married couple who have had to practice reconciliation not as a theory but as a daily reality — across the dinner table, in how they pray, in how they raise their children, in how they navigate the real and unresolved differences between their traditions. Their marriage is not an illustration of the charism. It _is_ the charism, at its most intimate scale.
 
 From that marriage, the grace has extended outward — to a household, to a community, to a network of relationships across the Christian world. The same grace that operates between a husband and wife operates between traditions: it requires honesty about real difference, renunciation of hostility, concrete acts of repair, and patient restoration of relationship.
 
@@ -54,7 +55,7 @@ CTR's charism is therefore not generic ecumenism — a polite setting-aside of d
 
 ## 3. Rule of Life
 
-*The spiritual pattern that makes common life possible. The deep grammar of commitment.*
+_The spiritual pattern that makes common life possible. The deep grammar of commitment._
 
 CTR's Rule of Life is the **Statement of Personal Devotion to Live Out John 17**. It is a personal covenant, made freely, by individuals who want to take Jesus' prayer seriously in their own lives.
 
@@ -78,7 +79,7 @@ Anyone, anywhere, from any tradition, can make this commitment. It does not requ
 
 ## 4. Common Life
 
-*The concrete rhythms by which members and participants share prayer, work, meals, formation, and friendship.*
+_The concrete rhythms by which members and participants share prayer, work, meals, formation, and friendship._
 
 If the Rule of Life is the grammar, Common Life is the language actually spoken. It is what people experience when they show up — whether they live on the land or participate from a distance.
 
@@ -88,7 +89,7 @@ CTR's common life is organized around five practices. These are not a program or
 
 **Prayer** — The community gathers daily around the Bridge Prayer, a short liturgy that joins its members to Christians across traditions and around the world. Prayer is the first practice because reconciliation begins with standing before God together before it can happen between people.
 
-**Reconciliation** — Reconciliation is a concrete set of actions that removes hostility in a relationship, repairs the damage it caused, and restores the God-intended unity. The community practices it with one another and teaches others how. CTR's particular focus is *ecclesial* reconciliation — between Christian traditions — while recognizing that this form of reconciliation is intimately connected to, and cannot be fully separated from, other forms: racial, marital, communal. The grace is one grace operating at different scales.
+**Reconciliation** — Reconciliation is a concrete set of actions that removes hostility in a relationship, repairs the damage it caused, and restores the God-intended unity. The community practices it with one another and teaches others how. CTR's particular focus is _ecclesial_ reconciliation — between Christian traditions — while recognizing that this form of reconciliation is intimately connected to, and cannot be fully separated from, other forms: racial, marital, communal. The grace is one grace operating at different scales.
 
 **Formation** — The community is shaped by scripture, teaching, and the long tradition of the Church. Formation is the practice of allowing yourself to be changed — by what you read, what you hear, and who you do life with. This includes the Teaching of the Week, the Book of the Month, the podcast library, and the retreats.
 
@@ -148,7 +149,7 @@ CTR's common life also includes ongoing written reflection offered to the wider 
 
 ## 5. Mission
 
-*How the community's common life is offered outwardly for the Church and the world.*
+_How the community's common life is offered outwardly for the Church and the world._
 
 CTR's mission flows directly from its vocation. If the vocation is to embody and practice reconciliation, the mission is to offer that embodiment outward — as witness, as teaching, as service, and as sending.
 
@@ -171,7 +172,7 @@ The teaching library includes:
 
 The urgency of CTR's mission rests on a theological claim: that the unity of Christians is not merely a nice internal goal, but **a constitutive element of the gospel's intelligibility to the watching world**.
 
-Jesus said it himself: *"so that the world will believe that you sent me."* The Edinburgh Missionary Conference of 1910 — the founding moment of the modern ecumenical movement — recognized this connection: a divided church cannot credibly proclaim a reconciling God. What CTR is doing is not peripheral to evangelism. It is essential to it.
+Jesus said it himself: _"so that the world will believe that you sent me."_ The Edinburgh Missionary Conference of 1910 — the founding moment of the modern ecumenical movement — recognized this connection: a divided church cannot credibly proclaim a reconciling God. What CTR is doing is not peripheral to evangelism. It is essential to it.
 
 ### An Expansive Apostolate
 
@@ -181,7 +182,7 @@ Jesus said it himself: *"so that the world will believe that you sent me."* The 
 
 ## 6. Constitutions
 
-*The formal structure that orders, protects, and governs the common life.*
+_The formal structure that orders, protects, and governs the common life._
 
 CTR's constitutions describe how the community is structured, led, held accountable, and protected. This includes:
 
@@ -204,7 +205,7 @@ CTR's constitutions describe how the community is structured, led, held accounta
 
 **Genuine difference, not least-common-denominator.** CTR is not about finding what everyone agrees on and stopping there. It is about remaining in real relationship across real difference. The differences are not dissolved. The hostility is.
 
-**The watching world.** The stakes are not merely internal to the church. A reconciled church makes the gospel visible. A hostile church obscures it. This connection should appear on the homepage, the mission page, and anywhere the *why* of CTR is being explained.
+**The watching world.** The stakes are not merely internal to the church. A reconciled church makes the gospel visible. A hostile church obscures it. This connection should appear on the homepage, the mission page, and anywhere the _why_ of CTR is being explained.
 
 **Ecumenical in composition and goal.** CTR is made up of Protestants, Catholics, Eastern Orthodox, Pentecostals, and Jews — and it exists to produce more of that kind of relationship in the world. Both halves of that sentence matter.
 
@@ -218,7 +219,7 @@ CTR's constitutions describe how the community is structured, led, held accounta
 
 ---
 
-*End of content framework*
+_End of content framework_
 
 ---
 

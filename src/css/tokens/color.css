@@ -6,7 +6,9 @@
   --color-primitive-night: #0f3966;
   --color-primitive-midnight: #0c1632;
   --color-primitive-darkestnight: #100900;
+  --color-primitive-deepwater: #1d479c;
   --color-primitive-waterblue: #3375fb;
+  --color-primitive-white: #fafaf8;
   --color-primitive-warmwhite: #faf8f4;
   --color-primitive-warmwhite: #f8f5ee;
   --color-primitive-amberglow: #e8a430;
@@ -22,12 +24,20 @@
    ========================================================================== */
 
 :root {
-  --color-surface: var(--color-primitive-warmwhite);
-  --color-text: var(--color-primitive-midnight);
-  --color-text-light: var(--color-primitive-dawn);
-  --color-text-heading: var(--color-primitive-night);
+  --color-surface-comment: var(--color-primitive-dawn);
+  --color-surface-page: var(--color-primitive-warmwhite);
+  --color-surface-card: var(--color-primitive-white);
+  --color-surface-subtle: var(--color-primitive-dusk); /* dusk */
+  --color-surface-warm: var(--color-primitive-dawn); /* dawn */
+  --color-surface-dark: var(--color-primitive-midnight); /* midnight */
+  --color-text: var(--color-primitive-darkestnight);
+  --color-text-secondary: var(--color-primitive-night);
+  --color-text-muted: var(--color-primitive-embers);
   --color-text-special: var(--color-primitive-eveningsun);
-  --color-interactive: var(--color-primitive-waterblue);
+  --color-text-heading-primary: var(--color-primitive-midnight);
+  --color-text-heading-secondary: var(--color-primitive-night);
+  --color-text-heading-accent: var(--color-primitive-eveningsun);
+  --color-interactive: var(--color-primitive-deepwater);
   --color-border: var(--color-primitive-embers);
   --color-decor: var(--color-primitive-goldenhour);
 }
@@ -38,17 +48,17 @@
 
 :root {
   /* Add specific component slots here */
-  --color-button-primary-background: var(--color-primitive-goldenhour);
-  --color-button-primary-text: var(--color-primitive-midnight);
+  --color-button-primary-background: var(--color-primitive-night);
+  --color-button-primary-text: var(--color-primitive-warmwhite);
   --color-button-primary-hover-background: var(--color-primitive-amberglow);
   --color-button-primary-hover-text: var(--color-primitive-midnight);
   --color-link: var(--color-interactive);
-  --color-link-hover: oklch(from var(--color-link) calc(l * 0.8) c h);
+  --color-link-hover: oklch(from var(--color-link) calc(l * 0.6) calc(c * 1.1) h);
 }
 
 /* Shadows */
 :root {
-  --shadow-color: var(--color-surface);
+  --shadow-color: var(--color-surface-page);
   --shadow-darkness: 0.6;
   --shadow-elevation-low:
     0px 0.1px 0.5px oklch(from var(--shadow-color) var(--shadow-darkness) c h/ 0.2),

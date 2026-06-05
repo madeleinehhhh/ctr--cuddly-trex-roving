@@ -39,10 +39,10 @@ button {
   color: inherit;
 }
 
-ul,
+/* ul,
 ol {
   list-style: none;
-}
+} */
 
 a {
   text-decoration: none;
@@ -56,7 +56,7 @@ a {
 /* Skip link — always present, only visible on focus */
 #skip-link {
   text-decoration: none;
-  background: var(--color-surface-page);
+  background: var(--color-surface-page-page);
   color: var(--color-text-default);
   padding: var(--space-xs) var(--space-md);
   border: 1px solid var(--color-border-subtle);

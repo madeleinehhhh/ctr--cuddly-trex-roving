@@ -29,9 +29,9 @@ nav a:focus {
   text-decoration-color: red;
 }
 
-/* nav a::before {
+nav a::before {
   content: '';
-  position:absolute;
+  position: absolute;
   z-index: -1;
 
   transform-origin: center;
@@ -51,8 +51,8 @@ nav a:focus {
     height var(--duration-ui) var(--ease-default),
     left var(--duration-ui) var(--ease-default),
     border-radius var(--duration-fast) var(--ease-default);
-} */
-/* nav a:hover::before,
+}
+nav a:hover::before,
 nav a:active::before,
 nav a:focus::before {
   border-radius: 0;
@@ -61,4 +61,4 @@ nav a:focus::before {
   height: 3px;
 
   left: 0;
-} */
+}

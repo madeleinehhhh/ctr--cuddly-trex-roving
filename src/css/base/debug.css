@@ -1,4 +1,14 @@
-.editor-note {
-  background: rgb(234, 188, 179);
-  outline: maroon 3px solid;
+.comment {
+  background: oklch(from var(--color-surface-comment) l c h / 0.5);
+
+  display: inline;
+  width: fit-content;
+
+  line-height: 1;
+  font-size: var(--type-xxs);
+  font-family: monospace;
+
+  padding: 0.2em 0.4em;
+  margin: 0.4em 0.6em;
+  border-radius: 0.2em;
 }

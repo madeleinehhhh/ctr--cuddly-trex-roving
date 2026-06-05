@@ -1,9 +1,9 @@
 ---
-title: "Work"
+title: 'Work'
 description: "The fifth of CTR's five practices — the daily, faithful labor that makes common life possible."
-layout: "page.njk"
-permalink: "/practices/work/"
-aliases: ["ctr-practices-work"]
+layout: 'page.njk'
+permalink: '/practices/work/'
+aliases: ['ctr-practices-work']
 ---
 
 %% # Christ the Reconciler — /practices/work Page Copy Draft %%
@@ -50,7 +50,7 @@ In this way, Cielo embodies something important about how CTR understands work: 
 
 ### Work and the Long Tradition
 
-The integration of work into a community's spiritual life is not a new idea. Benedictine monasteries have operated on the principle of *ora et labora* — pray and work — for fifteen centuries. The rhythm of prayer and labor, held together in a common life, has formed countless communities and countless Christians.
+The integration of work into a community's spiritual life is not a new idea. Benedictine monasteries have operated on the principle of _ora et labora_ — pray and work — for fifteen centuries. The rhythm of prayer and labor, held together in a common life, has formed countless communities and countless Christians.
 
 CTR is not a monastery. But it shares the conviction that work and prayer are not opposites to be balanced against each other. They are partners. The person who prays faithfully and works faithfully is being formed in ways that neither prayer nor work alone can accomplish.
 
@@ -75,25 +75,25 @@ Work is where the common life meets the ordinary life. It is where the formation
 ### How to Participate
 
 **Visit for a retreat** — when you visit CTR, you participate in the work of the community. That is intentional. Guests are not passive recipients of hospitality. They are welcomed into the common life, which includes the common work.
-[[ctr-connect-visit|Plan a visit →]]
+[[ctr-connect-visit|Plan a visit]]
 
 **Support Cielo** — purchasing Cielo water is a direct way to support the economic engine of the community.
 [CONFIRM: Is there a way for supporters to purchase Cielo water or direct others to it? Link needed.]
 
 **Give** — the community's work is sustained by the generosity of people who believe in what it is doing.
-[[ctr-connect-donate|Give →]]
+[[ctr-connect-donate|Give]]
 
 ---
 
 %%SECTION: NAVIGATION%%
 
-- [[ctr-practices-hospitality|Hospitality — the fourth practice →]]
-- [[ctr-practices-index|The five practices →]]
-- [[ctr-about-community|The land and community →]]
+- [[ctr-practices-hospitality|Hospitality — the fourth practice]]
+- [[ctr-practices-index|The five practices]]
+- [[ctr-about-community|The land and community]]
 
 ---
 
-*End of /practices/work page copy*
+_End of /practices/work page copy_
 
 ---
 

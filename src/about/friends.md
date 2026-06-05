@@ -1,9 +1,9 @@
 ---
-title: "Friends and Collaborators"
-description: "The ecumenical network of friends, commenders, and collaborators who walk alongside Christ the Reconciler."
-layout: "page.njk"
-permalink: "/about/friends/"
-aliases: ["ctr-about-friends"]
+title: 'Friends and Collaborators'
+description: 'The ecumenical network of friends, commenders, and collaborators who walk alongside Christ the Reconciler.'
+layout: 'page.njk'
+permalink: '/about/friends/'
+aliases: ['ctr-about-friends']
 ---
 
 %% # Christ the Reconciler — /about/friends Page Copy Draft %%
@@ -11,6 +11,7 @@ aliases: ["ctr-about-friends"]
 ---
 
 %%SECTION: HERO / OPENING%%
+
 ### Friends, Collaborators, and Commendations
 
 Christ the Reconciler does not exist in isolation. The community is held within a wide network of friendships, accountability relationships, and collaborations that stretch across the Christian world — Catholic, Protestant, Orthodox, Pentecostal, Anabaptist, Messianic Jewish, and Lutheran.
@@ -22,6 +23,7 @@ If you are wondering whether this community is trustworthy — whether it is roo
 ---
 
 %%SECTION: IN AUSTIN AND TEXAS%%
+
 ### In Austin and Texas
 
 > "Thomas Cogdell is the real deal, a genuine man of peace. When you first meet him you sense a great spiritual reservoir of grace and dignity. This is combined by an insatiable determination to see and experience the reconciliation of the Body of Christ. He is Protestant and his wife is Catholic. Their devotion and love for Christ's Body is both compelling and joyous. Restoration is the work of the heart and it is with heart that we will experience the reconciliation of the Body of Christ. I highly commend Thomas and Christ the Reconciler to you."
@@ -47,6 +49,7 @@ If you are wondering whether this community is trustworthy — whether it is roo
 ---
 
 %%SECTION: FROM THE WITTENBERG 2017 INITIATIVE%%
+
 ### From the Wittenberg 2017 Initiative
 
 In 2017, CTR played a central organizing role in the Wittenberg 2017 initiative — a multi-year ecumenical gathering marking the 500th anniversary of the Reformation, with events in Volkenroda (2013), Trento (2014), Rome (2015), and culminating in Wittenberg, Germany in November 2017. The initiative brought together Catholics, Protestants, Pentecostals, Anabaptists, and others from across Europe and beyond for prayer, repentance, and reconciliation across five centuries of division. [CONFIRM: one sentence on what the initiative produced]
@@ -98,6 +101,7 @@ Those who gathered have become some of CTR's closest friends and most trusted vo
 ---
 
 %%SECTION: THE WIDER NETWORK%%
+
 ### The Wider Network
 
 Beyond individual friendships, CTR is connected to a number of communities and movements that share its vocation:
@@ -119,15 +123,16 @@ These relationships are not merely collegial. They are part of how CTR understan
 ---
 
 %%SECTION: NAVIGATION%%
-- [[ctr-about-history|Our history →]]
-- [[ctr-about-what-we-believe|What we believe →]]
-- [[ctr-teachings-reading-list|Reading list — books that have shaped CTR's thinking →]]
-- [[ctr-connect-visit|Come visit →]]
-- [[ctr-connect-donate|Support the work →]]
+
+- [[ctr-about-history|Our history]]
+- [[ctr-about-what-we-believe|What we believe]]
+- [[ctr-teachings-reading-list|Reading list — books that have shaped CTR's thinking]]
+- [[ctr-connect-visit|Come visit]]
+- [[ctr-connect-donate|Support the work]]
 
 ---
 
-*End of /about/friends page copy*
+_End of /about/friends page copy_
 
 ---
 
