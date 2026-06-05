@@ -2,9 +2,6 @@
 //
 // SETUP: install the interlinker plugin first:
 //   npm install @photogabble/eleventy-plugin-interlinker
-//
-// The interlinker plugin is CommonJS. In an ESM project (type: "module"),
-// load it with a dynamic import() as shown below.
 
 export default async function (eleventyConfig) {
 
@@ -18,22 +15,16 @@ export default async function (eleventyConfig) {
     deadLinkReport: 'console',
   });
 
-  // --- Strip Obsidian section markers from output ---
-  // Removes %%SECTION: ...%% comments used for editorial structure in Obsidian.
-  // These are visible in Obsidian edit mode but should not appear in the built site.
-  eleventyConfig.addTransform('strip-section-markers', (content, outputPath) => {
-    if (outputPath && outputPath.endsWith('.html')) {
-      return content.replace(/%%SECTION:[^%]*%%/g, '');
-    }
-    return content;
-  });
-
-  // Strip any remaining %% ... %% Obsidian comments (e.g. the file title comment)
-  eleventyConfig.addTransform('strip-obsidian-comments', (content, outputPath) => {
-    if (outputPath && outputPath.endsWith('.html')) {
-      return content.replace(/%%[^%]*%%/g, '');
-    }
-    return content;
+  // --- Strip Obsidian %% comments %% before markdown parsing ---
+  // Uses amendLibrary to wrap markdown-it's render method, stripping
+  // %% ... %% blocks from the source before the parser sees them.
+  // This prevents them from ever appearing in output HTML.
+  eleventyConfig.amendLibrary('md', (mdLib) => {
+    const originalRender = mdLib.render.bind(mdLib);
+    mdLib.render = (src, env) => {
+      const stripped = src.replace(/%%[^%]*%%/gs, '');
+      return originalRender(stripped, env);
+    };
   });
 
   // --- Passthrough — files copied as-is to _site/ ---
@@ -50,8 +41,7 @@ export default async function (eleventyConfig) {
       .filter((p) => !p.filePathStem.endsWith('/index'))
   );
 
-  // Teachings collection — all posts with a 'teacher' or 'series' front matter key
-  // Used to generate teacher and series index pages via pagination
+  // Teachings collection — sorted newest-first
   eleventyConfig.addCollection('teachings', (collectionApi) =>
     collectionApi
       .getFilteredByGlob(['src/teachings/**/*.md', 'src/teachings/**/*.njk'])
