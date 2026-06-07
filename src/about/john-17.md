@@ -1,9 +1,10 @@
 ---
-title: 'John 17'
-description: 'The prayer that gave birth to Christ the Reconciler — and the theological root of everything the community does.'
-layout: 'page.njk'
-permalink: '/practices/john-17/'
-aliases: ['ctr-practices-john17']
+title: John 17
+description: The prayer that gave birth to Christ the Reconciler — and the theological root of everything the community does.
+layout: page.njk
+permalink: /about/john-17/
+aliases:
+  - ctr-about-john17
 ---
 
 %% # Christ the Reconciler — /practices/john-17 Page Copy Draft %%
@@ -88,3 +89,7 @@ _End of /practices/john-17 page copy_
 - This page is doing theological heavy lifting — it's the "why" behind everything. Keep it from feeling academic; the tone should feel like someone who has sat with this prayer for twenty years, not someone explaining it for a lecture.
 - The Trinity section is important for CTR's distinctiveness — this is not conflict resolution with Christian branding. Make sure that comes through in final copy.
 - Consider whether a short video or audio from Thomas would work well on this page — it's the kind of content that benefits from a human voice.
+
+### more notes
+
+- this may be where we add the autoimmune picture

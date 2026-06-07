@@ -75,6 +75,7 @@ The recordings from these gatherings are a significant historical resource — a
 - [[ctr-teachings-wittenberg-rome|Rome 2015]]
 - [[ctr-teachings-wittenberg-500-days|500 Days Before]]
 - [[ctr-teachings-wittenberg-anniversary|The 500th Anniversary]]
+- [[ctr-teachings-reconciliation-stories|Reconciliation Stories]]
 
 ---
 
@@ -82,21 +83,39 @@ The recordings from these gatherings are a significant historical resource — a
 
 ### Written Reflections
 
+#### Amy's Blogs
+
 **[[ctr-teachings-passing-through-baca|Passing Through Baca]]**
 Amy Cogdell's personal reflection series. The name comes from Psalm 84:6 — the valley of weeping that God transforms into a place of springs. [CONFIRM: brief description and whether active]
 
-**[[ctr-teachings-reconciliation-stories|Reconciliation Stories]]**
-Testimonies and narratives of reconciliation in practice — what it looks like when the hostility actually ends. [CONFIRM: brief description and whether active]
+**One Year in Torah**
+
+---
+
+%%Section: Books%%
+
+Add information about books and add a page to link to.
+
+---
+
+%%Section: Movies%%
+
+Add information about movies and add a page to link to.
+
+---
+
+%%Section: Reading List%%
+
+**Reading List** [[ctr-teachings-reading-list|visit]]
 
 ---
 
 %%SECTION: LIVING RESOURCES%%
 
-### Updated Regularly
+### Regularly updated teachings
 
 - **Teaching of the Week** [[ctr-practices-teaching-of-the-week|visit]]
 - **Book of the Month** [[ctr-practices-book-of-the-month|visit]]
-- **Reading List** [[ctr-teachings-reading-list|visit]]
 
 ---
 
@@ -116,7 +135,7 @@ _End of /teachings page copy_
 
 - **11ty content model**: Each teaching entry (audio, video, or written) should be a markdown file with front matter including: `title`, `date`, `teacher` (slug), `series` (slug), `type` (audio/video/written), `archive` (boolean — true for Wittenberg 2017), `audio_url`, `video_url`, `podcast_feed` (boolean). The teacher and series index pages are then generated automatically as filtered 11ty collections. This eliminates the manual nav maintenance that made the Squarespace site unwieldy.
 - **Teacher pages**: Each teacher index page (`/teachings/teachers/thomas-cogdell` etc.) should be auto-generated from the collection — a simple template that lists all posts tagged with that teacher slug. No manual page needed per teacher.
-- **Wittenberg archive labeling**: These five collections should be clearly marked as a historical archive — not ongoing series. A simple `archive: true` flag in front matter and a visual treatment (muted colors, "Archive" label) will distinguish them from active series without burying them.
+- **Wittenberg archive labeling**: These six collections should be clearly marked as a historical archive, not ongoing series. A simple `archive: true` flag in front matter and a visual treatment (muted colors, "Archive" label) will distinguish them from active series without burying them.
 - **Passing Through Baca and Reconciliation Stories**: Both marked [CONFIRM] pending verification they are active. If either is dormant, consider labeling it as an archive rather than removing it — the content still has value.
 - **Brief teacher descriptions**: Each teacher link on this page is bare — just a name. Consider adding a one-line identifier for each (e.g., "George Miley — longtime friend and teacher; author of _Loving the Church_") once those are confirmed. This is especially important for the less well-known teachers, where a newcomer has no context.
 - **Podcast feeds**: The existing Squarespace setup pipes these into Apple Podcasts etc. The 11ty rebuild should maintain those feeds via a generated RSS file per series or per teacher, using 11ty's `feedPlugin` or a custom feed template. Confirm with whoever is handling the 11ty build.

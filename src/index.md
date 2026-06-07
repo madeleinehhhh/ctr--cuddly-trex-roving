@@ -14,24 +14,33 @@ aliases: ['ctr-homepage-copy']
 
 ## Christ the Reconciler
 
-_A missional community in Elgin, Texas_
+_A missional community of reconciliation based near Austin, Texas_
 
-We are Protestants, Catholics, Orthodox Christians, and Messianic Jews —
-living and working together in answer to the prayer Jesus prayed the night before he died.
+%%should we say Christian community, Protestants, Catholics, Orthodox Christians, and Jews instead... or Protestant, Catholic, Orthodox, Pentecostal, Evangelical, Anabaptists, Reformed, etc., and Jewish believers in Jesus%%
+
+%%debate about short or long list here%%
+
+We are Protestant, Catholic, Eastern Orthodox, Anabaptist, Pentecostal, and Messianic Jewish followers of Jesus living and working together in response to the prayer Jesus prayed the night before he died:
 
 > "That they all may be one."
 >
 > — John 17:21
 
-[[ctr-about-index|Who We Are]] [[ctr-connect-visit|Join Us for a Retreat]]
+[[ctr-about-index|Who We Are]] [[ctr-connect-visit|Visit us]]
 
 ---
 
 %%SECTION: ORIENTATION — what this place is%%
 
+%%add non residential and international%%
+
+%%consider use of Christians vs Followers of Jesus%%
+
 ### A Community, Not a Conference
 
-Christ the Reconciler is a residential intentional community on sixteen acres in Elgin, Texas. We share daily prayer, meals, and work. We welcome guests for retreats. We produce teachings, podcasts, and resources for Christians everywhere who believe that the hostility fracturing the Body of Christ is not inevitable — and that Jesus' prayer for unity can actually be answered.
+Christ the Reconciler is a residential intentional community on sixteen acres in Elgin, Texas and a non-residential community spread throughout the world.
+
+We share daily prayer, meals, and work. We welcome guests for retreats. We produce teachings, podcasts, and resources for Christians everywhere who believe that the hostility fracturing the Body of Christ is not inevitable — and that Jesus' prayer for unity can actually be answered.
 
 We are not a new denomination. We are not a parachurch organization running programs. We are Catholics, Protestants, Orthodox Christians, and Messianic Jews living together, disagreeing honestly, and choosing not to be enemies. We are rooted in the ancient Christian faith and accountable to recognized leaders across the traditions we represent.
 
@@ -47,11 +56,12 @@ Christians have always disagreed. The faith is ancient, deep, and has traveled t
 
 Hostility is.
 
-Contempt from the pulpit. Dismissiveness on social media. The quiet assumption that a Christian from another tradition is confused at best, an enemy at worst. The watching world sees all of it — and Jesus said they would judge the truth of his mission by whether his people are visibly, genuinely one.
+Contempt from the pulpit. Dismissiveness on social media. The quiet assumption that a Christian from another tradition is confused at best, an enemy at worst. The watching world sees all of it and Jesus said they would judge the truth of his mission by whether his people are visibly, genuinely one.
 
+%%this is bad%%
 On the night before his crucifixion, Jesus prayed for all who would ever believe in him — including us. He prayed for unity. Not tolerance. Not coexistence. Unity — the same unity that exists between the Father and the Son. He set that bar knowing exactly what the church would look like two thousand years later. He prayed it anyway.
 
-That prayer has never been withdrawn. We believe it can be answered.
+Jesus is still praying for unity for the church.
 
 ---
 
@@ -59,17 +69,17 @@ That prayer has never been withdrawn. We believe it can be answered.
 
 ### How We Respond
 
-We don't respond to hostility with better arguments. We respond with a rule and a way of life — both rooted in John 17, both available to anyone who wants to take Jesus' prayer seriously.
+We don't respond to hostility with better arguments. We respond with a rule and a way of life, rooted in John 17 and available to anyone who wants to take Jesus' prayer seriously.
 
 #### The Rule: A Statement of Personal Devotion
 
-Anyone, anywhere, can make this commitment — five concrete renunciations of the hostilities that divide the church, and five concrete commitments to the unity Jesus prayed for. It is not a statement of intent. It is a description of how you will actually act.
+Anyone, anywhere, can make this commitment: five concrete renunciations of the hostilities that divide the church and five concrete commitments to the unity Jesus prayed for. It is not a statement of intent. It is a description of how you will actually act.
 
 [[ctr-statement-of-devotion|Read the Statement]]
 
 #### The Way of Life: Five Practices
 
-These are the outward rhythms of a community shaped by John 17 — prayer, reconciliation, formation, hospitality, and work. You don't have to live in Elgin to practice them.
+These are the outward rhythms of a community shaped by John 17: prayer, reconciliation, formation, hospitality, and work. You don't have to live in Elgin to practice them.
 
 [[ctr-practices-index|The Five Practices]]
 
@@ -77,9 +87,11 @@ These are the outward rhythms of a community shaped by John 17 — prayer, recon
 
 %%SECTION: LIVING RESOURCES — for members and regular participants%%
 
+%%is resources the right word for something that includes prayers%%
+
 ### Updated Regularly
 
-These are open to everyone — residents, distant participants, and curious newcomers.
+These resources are for everyone: residents, distant participants, and curious newcomers.
 
 - **Daily Bridge Prayer** — Pray with us today [[ctr-practices-daily-bridge-prayer|visit]]
 - **Teaching of the Week** [[ctr-practices-teaching-of-the-week|visit]]
@@ -92,7 +104,9 @@ These are open to everyone — residents, distant participants, and curious newc
 
 ### In Good Company
 
-We don't ask you to take our word for it. Christ the Reconciler has been commended and walked alongside by recognized leaders across the Christian world — Catholic, Protestant, Pentecostal, Anabaptist, and Messianic.
+We don't ask you to take our word for it. Christ the Reconciler has been commended and walked alongside by recognized leaders across the Christian world.
+
+%%this does include orthodox (back of the book) and young folks in phoenix entering the greek orthodox church%%
 
 > "Thomas Cogdell is the real deal, a genuine man of peace... Their devotion and love for Christ's Body is both compelling and joyous."
 >
@@ -120,13 +134,13 @@ Start with who we are, what we believe, and how we got here.
 
 [[ctr-about-index|About CTR]]
 
-**I want to make the Statement of Personal Devotion.**
+**I want to adopt the Rule of Life.**
 
-Read it, sit with it, and get in touch when you're ready.
+Read the Statement of devotion, sit with it, and get in touch when you're ready.
 
 [[ctr-statement-of-devotion|The Statement]]
 
-**I'm interested in visiting or doing a retreat.**
+**I'm interested in visiting or attending a retreat.**
 
 We'd love to have you. Here's what to expect.
 
@@ -150,7 +164,7 @@ This community runs on prayer, labor, and the generosity of people who believe i
 
 ### Stay Connected
 
-A weekly email with the teaching of the week, prayer updates, and news from the community. No noise — just substance.
+A regular email with teachings, prayer updates, and news from the community.
 
 [[ctr-connect-newsletter|Subscribe to the Newsletter]]
 

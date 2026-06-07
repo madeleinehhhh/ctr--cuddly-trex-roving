@@ -8,6 +8,7 @@ body {
   color: var(--color-text);
 }
 
+/* maybe add a way to make each level of heading slightly lighter, maybe an index variable for each level that gets used in an hsl from */
 h1,
 h2,
 h3,

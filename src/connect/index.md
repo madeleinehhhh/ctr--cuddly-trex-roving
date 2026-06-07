@@ -22,11 +22,15 @@ There are many ways to be part of what Christ the Reconciler is doing — whethe
 
 ### Find Your Path
 
-**[[ctr-connect-visit|Visit or do a retreat]]**
-Come to Elgin. Pray with the community. Share a meal. See what a life shaped by John 17 looks like in practice.
+**Pray Daily Bridge Prayer** Link to DBP.
+
+**Explore our teachings** Link to teachings.
 
 **[[ctr-connect-newsletter|Subscribe to the newsletter]]**
 A weekly email with the teaching of the week, prayer updates, and news from the community. No noise — just substance.
+
+**[[ctr-connect-visit|Visit or do a retreat]]**
+Come to Elgin. Pray with the community. Share a meal. See what a life shaped by John 17 looks like in practice.
 
 **[[ctr-connect-donate|Give]]**
 This community runs on prayer, labor, and the generosity of people who believe in what we're doing.
@@ -40,7 +44,7 @@ Questions, interest in making the Statement, interest in visiting, or anything e
 
 ### Calendar
 
-[CONFIRM: Is there a public calendar of retreats, events, or community gatherings to embed or link here?]
+Put the calendar here. Squarespace has a bad calendar.
 
 ---
 

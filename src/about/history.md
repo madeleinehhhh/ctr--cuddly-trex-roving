@@ -18,6 +18,8 @@ God has been faithful through more than twenty-five years of stumbling forward.
 
 This is not a story of a community that had a plan and executed it. It is a story of a husband and wife who said yes to something they didn't fully understand, and found that God had been preparing the ground long before they arrived.
 
+Take the headings and write a brief synonpsis history.
+
 ---
 
 %%SECTION: 1999 — THE STIRRINGS%%
