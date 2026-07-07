@@ -1,10 +1,11 @@
 1. [[index|Home]]
 2. [[about/index|About]]
-	1. [[john-17|John 17]]
+	1. [[john-17|John 17]] and The Theological/Biblical Foundation
 	2. [[what-we-believe|What we believe]]
 	3. [[history|History]]
 	4. [[community|Community]]
 	5. [[friends|Friends]]
+	6. Hostility and Reconciliation
 3. [[practices/index|Practices]]
 	1. [[prayer|Prayer]]
 	2. [[formation|Formation]]

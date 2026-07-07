@@ -5,8 +5,9 @@ nav {
 nav ul {
   list-style: none;
 
-  display: flex;
+  display: block;
   justify-content: flex-end;
+  flex-wrap: wrap;
 
   gap: var(--space-sm);
 }
@@ -61,4 +62,8 @@ nav a:focus::before {
   height: 3px;
 
   left: 0;
+}
+
+ul.nav-depth-2 {
+  display: block;
 }

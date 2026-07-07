@@ -2,7 +2,8 @@ blockquote {
   --blockquote-color: var(--color-primitive-goldenhour);
   background: oklch(from var(--blockquote-color) calc(l * 1.15) calc(c * 0.2) h / 1);
   border-left: 0.2em solid var(--blockquote-color);
-  padding: var(--space-sm);
+  padding: var(--space-xs);
+  margin: var(--space-xs) var(--space-md);
 
   width: fit-content;
 }

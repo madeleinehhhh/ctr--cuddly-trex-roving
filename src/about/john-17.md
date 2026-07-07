@@ -26,7 +26,7 @@ This is the prayer that gave birth to Christ the Reconciler.
 
 %%SECTION: WHAT THE PRAYER MEANS%%
 
-### Not Uniformity. Unity.
+### Not Uni~~formi~~ty. Unity.
 
 Jesus was not praying for a world without theological difference. He was praying for something far more radical — that his people would be united in the same way the Father and the Son are united. A unity of love, of mutual honor, of genuine relationship across real difference.
 

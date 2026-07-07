@@ -7,26 +7,20 @@ eleventyExcludeFromCollections: false
 aliases: ['ctr-homepage-copy']
 ---
 
-%% # Christ the Reconciler — Homepage Copy Draft (Revised) %%
-%% _Section labels are structural notes, not page headings_ %%
-
 %%SECTION: HERO%%
-
-## Christ the Reconciler
-
-_A missional community of reconciliation based near Austin, Texas_
-
 %%should we say Christian community, Protestants, Catholics, Orthodox Christians, and Jews instead... or Protestant, Catholic, Orthodox, Pentecostal, Evangelical, Anabaptists, Reformed, etc., and Jewish believers in Jesus%%
 
 %%debate about short or long list here%%
 
-We are Protestant, Catholic, Eastern Orthodox, Anabaptist, Pentecostal, and Messianic Jewish followers of Jesus living and working together in response to the prayer Jesus prayed the night before he died:
+# Christ the Reconciler
 
-> "That they all may be one."
->
-> — John 17:21
+We are a missional community of reconciliation made up of Protestant, Catholic, Eastern Orthodox, Anabaptist, Pentecostal, and Messianic Jewish followers of Jesus working towards the unity Jesus prayed for, "That they all may be one" (John 17:21).
 
 [[ctr-about-index|Who We Are]] [[ctr-connect-visit|Visit us]]
+
+---
+
+%%new structure for the homepage: pull from the above 1. Community 2. Reconciliation 3. Missional%%
 
 ---
 
@@ -36,11 +30,14 @@ We are Protestant, Catholic, Eastern Orthodox, Anabaptist, Pentecostal, and Mess
 
 %%consider use of Christians vs Followers of Jesus%%
 
-### A Community, Not a Conference
+## A Community
 
 Christ the Reconciler is a residential intentional community on sixteen acres in Elgin, Texas and a non-residential community spread throughout the world.
 
-We share daily prayer, meals, and work. We welcome guests for retreats. We produce teachings, podcasts, and resources for Christians everywhere who believe that the hostility fracturing the Body of Christ is not inevitable — and that Jesus' prayer for unity can actually be answered.
+- We enter into the painful place across difference.
+- We share daily prayer, meals, and work.
+- We welcome guests for retreats.
+- Out of our shared life we produce resources—-teachings, podcasts, books, etc.--for Christians everywhere who believe that the hostility fracturing the Body of Christ is not inevitable and that Jesus' prayer for unity can actually be answered.
 
 We are not a new denomination. We are not a parachurch organization running programs. We are Catholics, Protestants, Orthodox Christians, and Messianic Jews living together, disagreeing honestly, and choosing not to be enemies. We are rooted in the ancient Christian faith and accountable to recognized leaders across the traditions we represent.
 
@@ -49,6 +46,8 @@ We are not a new denomination. We are not a parachurch organization running prog
 ---
 
 %%SECTION: THE PROBLEM — naming what CTR is responding to%%
+
+## Reconciliation
 
 ### The Problem Isn't Difference. It's Hostility.
 
@@ -66,6 +65,8 @@ Jesus is still praying for unity for the church.
 ---
 
 %%SECTION: THE RESPONSE — what CTR actually does%%
+
+## Missional
 
 ### How We Respond
 
